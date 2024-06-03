@@ -210,7 +210,7 @@ def tldr_dectector(host, addr = None, port = 443):
         print(e , "\nS2-Flag:0")
         BinaryEncoding += "0"
     
-    return (BinaryEncoding,host)
+    return {BinaryEncoding:host}
 
 
 print(tldr_dectector("8.8.8.8"))
