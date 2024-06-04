@@ -133,6 +133,19 @@ def make_client_hello(name, kyber):
 
 
 def tldr_dectector(host, addr = None, port = 443):
+    """
+    TLDR Detector
+    
+    ### Usage:
+        tldr(host = <URL>, addr = <IP ADDRESS>, port = <PORT NUM>)
+
+    ### Example:
+        tldr_detector("google.com") || tldr_detector("172.217.170.206")
+    
+    
+    By default, the port will be 443.
+    """
+
     BinaryEncoding = ""
 
     if addr is None:
@@ -153,7 +166,9 @@ def tldr_dectector(host, addr = None, port = 443):
     try:
         sock = socket.create_connection(addr)
         sock.send(client_hello)
-        print(sock.recv(256))
+
+        # print(sock.recv(256))
+        
         BinaryEncoding += "1"
     except Exception as e:
         print(e)
@@ -167,7 +182,7 @@ def tldr_dectector(host, addr = None, port = 443):
         sock.send(client_hello[:half])
         time.sleep(1)
         sock.send(client_hello[half:])
-        print(sock.recv(256))
+        # print(sock.recv(256))
         BinaryEncoding += "1"
     except Exception as e:
         print(e)
@@ -189,7 +204,9 @@ def tldr_dectector(host, addr = None, port = 443):
     try:
         sock = socket.create_connection(addr)
         sock.send(client_hello)
-        print(sock.recv(256))
+        
+        # print(sock.recv(256))
+
         BinaryEncoding += "1"
     except Exception as e:
         print(e)
@@ -204,10 +221,12 @@ def tldr_dectector(host, addr = None, port = 443):
         sock.send(client_hello[:half])
         time.sleep(1)
         sock.send(client_hello[half:])
-        print(sock.recv(256) , "\nS2-Flag:1")
+
+        # print(sock.recv(256))
+
         BinaryEncoding += "1"
     except Exception as e:
-        print(e , "\nS2-Flag:0")
+        print(e)
         BinaryEncoding += "0"
     
     return {BinaryEncoding:host}
