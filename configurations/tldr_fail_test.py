@@ -131,6 +131,10 @@ def make_client_hello(name, kyber):
     client_hello = b"\x01" + u24_prefix(CLIENT_HELLO_PREFIX + extensions)    
     return b"\x16\x03\x01" + u16_prefix(client_hello)
 
+def check_byte(data:bytes):
+    if(data[:3] == b'\x16\x03\x03'):
+        return True
+
 
 def tldr_dectector(host, addr = None, port = 443):
     """
@@ -168,8 +172,12 @@ def tldr_dectector(host, addr = None, port = 443):
         sock.send(client_hello)
 
         # print(sock.recv(256))
-        
-        BinaryEncoding += "1"
+
+        if check_byte(sock.recv(256)):
+            BinaryEncoding += "1"
+        else:
+            BinaryEncoding += "0"
+                    
     except Exception as e:
         print(e)
         BinaryEncoding += "0"
@@ -183,7 +191,12 @@ def tldr_dectector(host, addr = None, port = 443):
         time.sleep(1)
         sock.send(client_hello[half:])
         # print(sock.recv(256))
-        BinaryEncoding += "1"
+
+        if check_byte(sock.recv(256)):
+            BinaryEncoding += "1"
+        else:
+            BinaryEncoding += "0"
+
     except Exception as e:
         print(e)
         BinaryEncoding += "0"
@@ -207,7 +220,11 @@ def tldr_dectector(host, addr = None, port = 443):
         
         # print(sock.recv(256))
 
-        BinaryEncoding += "1"
+        if check_byte(sock.recv(256)):
+            BinaryEncoding += "1"
+        else:
+            BinaryEncoding += "0"
+
     except Exception as e:
         print(e)
         BinaryEncoding += "0"
@@ -224,7 +241,11 @@ def tldr_dectector(host, addr = None, port = 443):
 
         # print(sock.recv(256))
 
-        BinaryEncoding += "1"
+        if check_byte(sock.recv(256)):
+            BinaryEncoding += "1"
+        else:
+            BinaryEncoding += "0"
+            
     except Exception as e:
         print(e)
         BinaryEncoding += "0"
