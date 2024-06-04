@@ -1,4 +1,8 @@
 from configurations.ip_validator import start_resume_ip_validator
+from configurations.ip_collector import start_resume_retrieve_asn_details
+
+
+start_resume_retrieve_asn_details()
 
 ip_addresses = []
 
