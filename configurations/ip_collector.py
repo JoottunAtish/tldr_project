@@ -53,9 +53,9 @@ def process_asn(remaining_asns=[], processed_asns=[], processed_list=[]):
         processed_list.append(asn)
         progress += 1
         print(f"{progress / progress_denominator * 100:.2f}% complete")
-        if i == 1500:
-           print("Query limit reached. Try again after 24 hours.")
-           sys.exit(0)
+        # if i == 1500:
+        #    print("Query limit reached. Try again after 24 hours.")
+        #    sys.exit(0)
 
     return processed_asns
 
