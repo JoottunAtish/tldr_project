@@ -7,6 +7,23 @@ from utils.result import save_ip_validator_results
 from utils.checkpoint import save_ip_validator_checkpoint
 
 def start_resume_ip_validator(ip_addresses, num_of_threads, chunk_size, country_name):
+    """
+    Makes use of a checkpoint system to keep tracks of already processed data
+    in case of an issue such as a power-cut. 
+
+    #### :Parameters
+        ip_address: String
+
+        num_of_threads: Integer
+            Number of instances to create
+
+        chunk_size: Integer
+            Number of maximum data each instances can have
+
+        country_name: String
+    """
+
+
     checkpoint = f"checkpoints/{country_name}/ip_validator_results.json"
     if not os.path.exists(checkpoint):
         valid_ip_addresses = process(ip_addresses, num_of_threads, chunk_size, checkpoint)

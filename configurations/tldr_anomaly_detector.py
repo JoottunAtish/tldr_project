@@ -3,6 +3,23 @@ from tldr_fail_test import tldr_dectector
 
 
 def process(ip_addresses, num_of_threads, chunk_size, Processed_ip_addresses = []):
+    """
+    This function make use of parallel computing to speed up the process which calls 
+    the tldr_detector function.
+
+    #### :Parameters
+        ip_address: string
+
+        num_of_threads: integer
+            Number of instances to create
+
+        chunck_size: integer
+            The number of IPs of each instance
+
+        Processed_ip_address : list
+            By default, the list is empty.
+    """
+
     number_of_ip_addresses = len(ip_addresses)
 
     for i in range(0, number_of_ip_addresses, chunk_size):

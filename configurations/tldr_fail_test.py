@@ -138,16 +138,24 @@ def check_byte(data:bytes):
 
 def tldr_dectector(host, addr = None, port = 443):
     """
-    TLDR Detector
-    
-    ### Usage:
-        tldr(host = <URL>, addr = <IP ADDRESS>, port = <PORT NUM>)
+    Too Long; Did Not Read (TLDR) Detector. A script made by David Benjamin to test such bug.
 
     ### Example:
-        tldr_detector("google.com") || tldr_detector("172.217.170.206")
+        tldr_detector("google.com")
+
+        tldr_detector("172.217.170.206")
+
+    #### :Parameters
+        host: URL (string)
+        addr: IP address (string)
+        port: Port Number (integer)
+
+        By default, the port will be 443.
     
-    
-    By default, the port will be 443.
+    #### :Returns
+        The 4-bit binary encoding and Ip-address in a dictionary.
+
+        {[Large, Large-split, Small, Small-split]:<IP>}
     """
 
     BinaryEncoding = ""
@@ -251,6 +259,3 @@ def tldr_dectector(host, addr = None, port = 443):
         BinaryEncoding += "0"
     
     return {BinaryEncoding:host}
-
-
-print(tldr_dectector("8.8.8.8"))
