@@ -10,7 +10,7 @@ def start_resume_retrieve_asn_details():
     afrinic_asn_16_range = [(36864, 37887)]
     afrinic_asn_32_range = [(327680, 328703), (328704, 329727)]
     afrinic_asn_range = afrinic_asn_16_range + afrinic_asn_32_range
-    afrinic_asn_list = ['AS' + str(asn) for asn_range in afrinic_asn_range for asn in range(asn_range[0], asn_range[1] + 1)][:10]
+    afrinic_asn_list = ['AS' + str(asn) for asn_range in afrinic_asn_range for asn in range(asn_range[0], asn_range[1] + 1)]
     if not os.path.exists(checkpoint):
         asn_details = process_asn(afrinic_asn_list)
     else:
