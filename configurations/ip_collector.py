@@ -2,21 +2,14 @@ from utils.run_command import run_command
 from utils.result import save_afrinic_asn_results
 from utils.checkpoint import save_afrinic_asn_checkpoint
 import pandas as pd
+import ipaddress
 import json
 import os
 import pycountry
 
-def group_by_country(asn_details):
-    asn_details_by_country = {}
-    for asn in asn_details:
-        if asn["country"] not in asn_details_by_country:
-            asn_details_by_country[asn["country"]] = []
-        asn_details_by_country[asn["country"]].append(asn)
-    return asn_details_by_country
-
 def start_resume_retrieve_asn_details():
     checkpoint = f"checkpoints/asn.json"
-    afrinic_asn_list = ['AS' + str(asn) for asn in extract_asns()][:10]
+    afrinic_asn_list = ['AS' + str(asn) for asn in extract_asns()]
     if not os.path.exists(checkpoint):
         asn_details = process_asn(afrinic_asn_list)
     else:
@@ -27,7 +20,7 @@ def start_resume_retrieve_asn_details():
             remaining_asns = list(set(afrinic_asn_list) - set(processed_list))
             asn_details = process_asn(remaining_asns, processed_asns, processed_list)
     save_afrinic_asn_results(asn_details, f"results/afrinic_asn.json")
-    return asn_details
+    return group_by_country(asn_details)
 
 def process_asn(remaining_asns=[], processed_asns=[], processed_list=[]):
     progress_denominator = len(remaining_asns) + len(processed_list)
@@ -55,8 +48,8 @@ def process_asn(remaining_asns=[], processed_asns=[], processed_list=[]):
                         "inetnums": list(set(routes))
                     }
                     processed_asns.append(dict)
-        save_afrinic_asn_checkpoint(processed_asns, processed_list, "checkpoints/asn.json")
         processed_list.append(asn)
+        save_afrinic_asn_checkpoint(processed_asns, processed_list, "checkpoints/asn.json")
         progress += 1
         print(f"{progress / progress_denominator * 100:.2f}% complete")
         # if i == 1500:
@@ -98,3 +91,14 @@ def extract_country_netname(data):
     return country_code, country_name, netname
   else:
     return None, None, None
+  
+def group_by_country(asn_details):
+    asn_details_by_country = {}
+    for asn in asn_details:
+        if asn["country"] not in asn_details_by_country:
+            asn_details_by_country[asn["country"]] = []
+        asn_details_by_country[asn["country"]].append(asn)
+    return asn_details_by_country
+
+def ip_prefix_to_list(ip_prefix, netname):
+    return [{"ip_address": ip, "netname": netname} for ip in ipaddress.ip_network(ip_prefix)]
