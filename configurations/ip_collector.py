@@ -101,4 +101,4 @@ def group_by_country(asn_details):
     return asn_details_by_country
 
 def ip_prefix_to_list(ip_prefix, netname):
-    return [{"ip_address": ip, "netname": netname} for ip in ipaddress.ip_network(ip_prefix)]
+    return [{"ip_address": str(ip), "netname": netname} for ip in ipaddress.ip_network(ip_prefix)]

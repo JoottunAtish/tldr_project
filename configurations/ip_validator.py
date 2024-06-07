@@ -6,6 +6,7 @@ import os
 from utils.result import save_ip_validator_results
 from utils.checkpoint import save_ip_validator_checkpoint
 
+
 def start_resume_ip_validator(ip_addresses, num_of_threads, chunk_size, country_name):
     """
     Makes use of a checkpoint system to keep tracks of already processed data
@@ -32,8 +33,9 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, chunk_size, country_
             cp = json.load(f)
             cp_valid_ip_addresses = cp["valid_ip_addresses"]
             cp_invalid_ip_addresses = cp["invalid_ip_addresses"]
-            
-            remaining_ip_addresses = list(set(ip_addresses) - set(cp_valid_ip_addresses) - set(cp_invalid_ip_addresses))
+            _remaining_ip_addresses = list(set((ip['ip_address'], ip['netname']) for ip in ip_addresses) - set((ip['ip_address'], ip['netname']) for ip in cp_valid_ip_addresses) - set((ip['ip_address'], ip['netname']) for ip in cp_invalid_ip_addresses))
+            remaining_ip_addresses = [{'ip_address': ip[0], 'netname': ip[1]} for ip in _remaining_ip_addresses]
+            _remaining_ip_addresses = None
             valid_ip_addresses = process(remaining_ip_addresses, num_of_threads, chunk_size, checkpoint, cp_valid_ip_addresses, cp_invalid_ip_addresses)
             cp = None
             cp_valid_ip_addresses = None
@@ -52,7 +54,7 @@ def process(ip_addresses, num_of_threads, chunk_size, checkpoint, valid_ip_addre
 
     for i in range(0, number_of_ip_addresses, chunk_size):
         with concurrent.futures.ThreadPoolExecutor(max_workers=num_of_threads) as executor:
-            futures = {executor.submit(validate_ip_address, ip, progress_denominator, progress_lock, progress): ip for ip in ip_addresses[i:i+chunk_size]}
+            futures = {executor.submit(validate_ip_address, ip['ip_address'], progress_denominator, progress_lock, progress): ip for ip in ip_addresses[i:i+chunk_size]}
             
             for future in concurrent.futures.as_completed(futures):
                 ip = futures[future]
