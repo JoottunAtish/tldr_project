@@ -34,6 +34,6 @@ for country, asn_details in asn_details_grouped_by_country.items():
             netname = asn_detail["netname"]
             for ip_prefix in ip_prefixes:
                 ip_addresses.extend(ip_prefix_to_list(ip_prefix, netname))
+        ip_addresses = list({'ip_address': _ip[0], 'netname': _ip[1]} for _ip in set((ip['ip_address'], ip['netname']) for ip in ip_addresses))
         print(f"Processing {country}, {len(ip_addresses)} IP Addresses")
-        start_resume_ip_validator(ip_addresses, num_of_threads=512, chunk_size=512, country_name=country) 
-
+        start_resume_ip_validator(ip_addresses, num_of_threads=4096, chunk_size=4096, country_name=country) 
