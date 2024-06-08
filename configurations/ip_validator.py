@@ -69,6 +69,7 @@ def process(ip_addresses, num_of_threads, chunk_size, checkpoint, valid_ip_addre
                         with invalid_ip_addresses_lock:
                             invalid_ip_addresses.append(ip)
                 except Exception as e:
+                    os.system('clear')
                     print(f"{ip} is invalid: {e}\n")
                     with invalid_ip_addresses_lock:
                         invalid_ip_addresses.append(ip)
