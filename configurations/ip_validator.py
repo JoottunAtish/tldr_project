@@ -7,7 +7,8 @@ from utils.result import save_ip_validator_results
 from utils.checkpoint import save_ip_validator_checkpoint
 
 
-def start_resume_ip_validator(ip_addresses, num_of_threads, chunk_size, country_name):
+def start_resume_ip_validator(ip_addresses, num_of_threads, country_name):
+    chunk_size = num_of_threads
     """
     Makes use of a checkpoint system to keep tracks of already processed data
     in case of an issue such as a power-cut. 
