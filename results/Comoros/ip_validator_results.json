@@ -1,0 +1,326 @@
+{
+    "total_ip_addresses_checked": 6144,
+    "valid_ip_addresses_count": 80,
+    "valid_ip_addresses": [
+        {
+            "ip_address": "197.255.227.85",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.229.84",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.136.75",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.238.41",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.137.41",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.225.96",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.224.249",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.88",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.146",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.232.6",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.101",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.186",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.139.126",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.225.98",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.138.99",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "102.223.123.122",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.225.60",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.137.219",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.138.83",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.224.40",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.235.205",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.136.65",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.225.52",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.243",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.10",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.139.109",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.227.246",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.138.94",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.137.197",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.138.97",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.225.135",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.74",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.138.98",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.224.28",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.139.108",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.227.66",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.73",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.202",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.180",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.138.95",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.225.197",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.136.81",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.138.84",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "102.223.123.45",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.224.21",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.137.242",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.227.170",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.97",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.136.69",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.224.69",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.137.102",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.224.54",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.168",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.224.19",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.138.106",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.227.82",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.24",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.75",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.250",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.138.85",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.138.82",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.136.74",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.229.81",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.225.171",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.229.73",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.136.10",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.227.70",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.147",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.224.131",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.138.107",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.137.6",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "197.255.227.244",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.245",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.14",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.227.19",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "197.255.232.7",
+            "netname": "Comores-Telecom"
+        },
+        {
+            "ip_address": "164.160.136.14",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "164.160.136.82",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "102.223.123.124",
+            "netname": "FTTH"
+        },
+        {
+            "ip_address": "102.223.123.86",
+            "netname": "FTTH"
+        }
+    ]
+}
