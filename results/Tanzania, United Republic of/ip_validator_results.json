@@ -1,1 +1,4518 @@
-{"total_ip_addresses_checked": 474880, "valid_ip_addresses_count": 1128, "valid_ip_addresses": [{"ip_address": "41.74.121.42", "netname": "MILAN-CABLE"}, {"ip_address": "41.59.202.99", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.138.241", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.114.2", "netname": "TERNET-20100302"}, {"ip_address": "41.188.165.130", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.254.212", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.87.236", "netname": "TTCL1-20051207"}, {"ip_address": "41.73.193.105", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "154.118.229.158", "netname": "EGOV"}, {"ip_address": "41.73.203.42", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "196.46.101.118", "netname": "TTCL1-20051207"}, {"ip_address": "41.221.49.38", "netname": "WIATZ"}, {"ip_address": "41.220.131.43", "netname": "Habari-Mwanza"}, {"ip_address": "102.177.81.193", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "196.192.79.114", "netname": "EGOV"}, {"ip_address": "154.127.25.16", "netname": "BELL-FIBER"}, {"ip_address": "196.29.48.190", "netname": "ECHOTEL-T-2"}, {"ip_address": "196.192.73.17", "netname": "EGOV"}, {"ip_address": "197.149.176.106", "netname": "EGOV"}, {"ip_address": "41.220.130.178", "netname": "Habari-Mwanza"}, {"ip_address": "154.118.229.18", "netname": "EGOV"}, {"ip_address": "41.59.228.141", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.162.94", "netname": "SIMBANET-20150420"}, {"ip_address": "41.223.228.202", "netname": "SATCOM-TZ"}, {"ip_address": "154.72.22.217", "netname": "ctv-IPv4"}, {"ip_address": "102.219.204.130", "netname": "NL13-v4"}, {"ip_address": "41.220.135.38", "netname": "Habari-Mwanza"}, {"ip_address": "41.93.53.47", "netname": "TERNET-20100302"}, {"ip_address": "41.59.108.166", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.155.167", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.90.56", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.85.44", "netname": "TTCL1-20051207"}, {"ip_address": "155.12.60.43", "netname": "SIMBANET-20150420"}, {"ip_address": "155.12.16.91", "netname": "SIMBANET-20150420"}, {"ip_address": "169.255.49.254", "netname": "Computer-Sales-Services"}, {"ip_address": "102.223.17.117", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "154.118.228.174", "netname": "EGOV"}, {"ip_address": "154.74.7.84", "netname": "TIGO-TZ"}, {"ip_address": "196.44.161.149", "netname": "UDARESSALAAM"}, {"ip_address": "197.149.178.166", "netname": "EGOV"}, {"ip_address": "41.59.209.100", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.228.186", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.211.42", "netname": "TTCL1-20051207"}, {"ip_address": "154.74.140.83", "netname": "TIGO-TZ"}, {"ip_address": "196.192.79.73", "netname": "EGOV"}, {"ip_address": "102.223.7.170", "netname": "ZICT1-v4"}, {"ip_address": "154.74.148.146", "netname": "TIGO-TZ"}, {"ip_address": "154.118.230.217", "netname": "EGOV"}, {"ip_address": "41.221.32.198", "netname": "SIMBANET-20150420"}, {"ip_address": "154.72.91.83", "netname": "RAHA"}, {"ip_address": "196.200.226.130", "netname": "APTUS-IPV4"}, {"ip_address": "102.223.7.11", "netname": "ZICT1-v4"}, {"ip_address": "102.223.16.181", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.220.130.106", "netname": "Habari-Mwanza"}, {"ip_address": "169.255.50.29", "netname": "Computer-Sales-Services"}, {"ip_address": "102.219.28.8", "netname": "TNECv4"}, {"ip_address": "41.188.138.62", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.225.81", "netname": "TTCL1-20051207"}, {"ip_address": "196.13.133.16", "netname": "TANZANIA-POST-BANK"}, {"ip_address": "41.220.139.18", "netname": "Habari-Mwanza"}, {"ip_address": "102.216.25.94", "netname": "CRDB-BANK-PLC"}, {"ip_address": "102.69.167.192", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "196.192.79.66", "netname": "EGOV"}, {"ip_address": "41.59.58.222", "netname": "TTCL1-20051207"}, {"ip_address": "102.223.16.233", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "154.74.160.18", "netname": "TIGO-TZ"}, {"ip_address": "102.223.7.9", "netname": "ZICT1-v4"}, {"ip_address": "41.59.227.240", "netname": "TTCL1-20051207"}, {"ip_address": "155.12.15.35", "netname": "SIMBANET-20150420"}, {"ip_address": "154.72.81.69", "netname": "RAHA"}, {"ip_address": "41.59.227.180", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.128.85", "netname": "Habari-Mwanza"}, {"ip_address": "41.93.112.21", "netname": "TERNET-20100302"}, {"ip_address": "41.59.113.121", "netname": "TTCL1-20051207"}, {"ip_address": "41.221.48.252", "netname": "WIATZ"}, {"ip_address": "41.73.218.12", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "41.59.228.8", "netname": "TTCL1-20051207"}, {"ip_address": "154.118.230.78", "netname": "EGOV"}, {"ip_address": "41.59.227.79", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.166.51", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.188.150.54", "netname": "SIMBANET-20150420"}, {"ip_address": "41.223.231.130", "netname": "SATCOM-TZ"}, {"ip_address": "41.59.85.66", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.143.90", "netname": "Habari-Mwanza"}, {"ip_address": "196.200.227.253", "netname": "APTUS-IPV4"}, {"ip_address": "41.93.62.99", "netname": "TERNET-20100302"}, {"ip_address": "41.59.228.96", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.108.130", "netname": "TTCL1-20051207"}, {"ip_address": "169.255.114.98", "netname": "Capital-Technologies"}, {"ip_address": "41.188.157.204", "netname": "SIMBANET-20150420"}, {"ip_address": "196.192.79.46", "netname": "EGOV"}, {"ip_address": "41.59.87.158", "netname": "TTCL1-20051207"}, {"ip_address": "217.29.129.2", "netname": "APTUS-IPV4"}, {"ip_address": "41.93.62.141", "netname": "TERNET-20100302"}, {"ip_address": "41.220.143.41", "netname": "Habari-Mwanza"}, {"ip_address": "41.188.156.205", "netname": "SIMBANET-20150420"}, {"ip_address": "102.223.8.43", "netname": "EGOV"}, {"ip_address": "41.223.231.180", "netname": "SATCOM-TZ"}, {"ip_address": "41.78.168.243", "netname": "Habari-Mwanza"}, {"ip_address": "102.69.164.147", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "196.49.5.121", "netname": "TISPA-AIXP-MNGNT"}, {"ip_address": "102.177.81.41", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "196.200.226.174", "netname": "APTUS-IPV4"}, {"ip_address": "196.44.161.145", "netname": "UDARESSALAAM"}, {"ip_address": "41.220.133.16", "netname": "Habari-Mwanza"}, {"ip_address": "41.220.133.223", "netname": "Habari-Mwanza"}, {"ip_address": "41.93.32.130", "netname": "TERNET-20100302"}, {"ip_address": "154.72.65.46", "netname": "RAHA"}, {"ip_address": "41.78.169.69", "netname": "Habari-Mwanza"}, {"ip_address": "41.188.142.79", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.90.201", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.173.198", "netname": "SIMBANET-20150420"}, {"ip_address": "41.220.131.35", "netname": "Habari-Mwanza"}, {"ip_address": "217.29.139.246", "netname": "APTUS-IPV4"}, {"ip_address": "102.223.17.221", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.227.19", "netname": "TTCL1-20051207"}, {"ip_address": "196.44.161.101", "netname": "UDARESSALAAM"}, {"ip_address": "102.214.45.194", "netname": "ZICT1-v4"}, {"ip_address": "192.231.237.77", "netname": "UBX-v4"}, {"ip_address": "217.29.132.29", "netname": "APTUS-IPV4"}, {"ip_address": "102.69.164.68", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "196.216.247.106", "netname": "OUT"}, {"ip_address": "41.93.92.18", "netname": "TERNET-20100302"}, {"ip_address": "41.221.49.10", "netname": "WIATZ"}, {"ip_address": "41.220.142.224", "netname": "Habari-Mwanza"}, {"ip_address": "155.12.22.50", "netname": "SIMBANET-20150420"}, {"ip_address": "196.192.79.40", "netname": "EGOV"}, {"ip_address": "41.59.101.223", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.167.113", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.69.164.6", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "169.255.48.34", "netname": "Computer-Sales-Services"}, {"ip_address": "196.29.48.110", "netname": "ECHOTEL-T-2"}, {"ip_address": "154.118.229.35", "netname": "EGOV"}, {"ip_address": "196.192.77.85", "netname": "EGOV"}, {"ip_address": "196.192.79.111", "netname": "EGOV"}, {"ip_address": "155.12.18.26", "netname": "SIMBANET-20150420"}, {"ip_address": "169.239.2.10", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "102.216.25.33", "netname": "CRDB-BANK-PLC"}, {"ip_address": "196.216.218.62", "netname": "NMB-BANK-Public-Limited-Company"}, {"ip_address": "154.66.224.184", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "41.79.69.187", "netname": "APTUS-IPV4"}, {"ip_address": "154.66.224.152", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "196.192.78.61", "netname": "EGOV"}, {"ip_address": "154.118.225.34", "netname": "EGOV"}, {"ip_address": "102.214.44.83", "netname": "ZICT1-v4"}, {"ip_address": "154.72.82.7", "netname": "RAHA"}, {"ip_address": "196.192.79.28", "netname": "EGOV"}, {"ip_address": "196.44.161.83", "netname": "UDARESSALAAM"}, {"ip_address": "196.192.77.91", "netname": "EGOV"}, {"ip_address": "41.220.143.7", "netname": "Habari-Mwanza"}, {"ip_address": "196.192.77.40", "netname": "EGOV"}, {"ip_address": "41.93.113.196", "netname": "TERNET-20100302"}, {"ip_address": "155.12.53.229", "netname": "SIMBANET-20150420"}, {"ip_address": "154.72.92.231", "netname": "RAHA"}, {"ip_address": "102.216.25.69", "netname": "CRDB-BANK-PLC"}, {"ip_address": "169.239.1.106", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.220.135.35", "netname": "Habari-Mwanza"}, {"ip_address": "41.220.133.177", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.201.116", "netname": "TTCL1-20051207"}, {"ip_address": "41.78.64.59", "netname": "UD-20100113"}, {"ip_address": "102.69.167.7", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.188.156.204", "netname": "SIMBANET-20150420"}, {"ip_address": "196.61.10.10", "netname": "Blink_Arusha"}, {"ip_address": "169.255.187.90", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "41.93.28.21", "netname": "TERNET-20100302"}, {"ip_address": "41.59.89.235", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.198.179", "netname": "TTCL1-20051207"}, {"ip_address": "102.219.204.193", "netname": "NL13-v4"}, {"ip_address": "154.72.88.246", "netname": "RAHA"}, {"ip_address": "41.221.49.128", "netname": "WIATZ"}, {"ip_address": "154.0.153.147", "netname": "Habari-Mwanza"}, {"ip_address": "155.12.30.37", "netname": "SIMBANET-20150420"}, {"ip_address": "155.12.60.57", "netname": "SIMBANET-20150420"}, {"ip_address": "41.220.136.176", "netname": "Habari-Mwanza"}, {"ip_address": "155.12.30.48", "netname": "SIMBANET-20150420"}, {"ip_address": "155.12.53.162", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.109.94", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.78.10", "netname": "EGOV"}, {"ip_address": "41.59.57.35", "netname": "TTCL1-20051207"}, {"ip_address": "102.223.17.61", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.214.47.35", "netname": "AT8"}, {"ip_address": "154.72.22.33", "netname": "ctv-IPv4"}, {"ip_address": "41.223.228.199", "netname": "SATCOM-TZ"}, {"ip_address": "154.72.79.26", "netname": "RAHA"}, {"ip_address": "196.200.229.173", "netname": "APTUS-IPV4"}, {"ip_address": "154.118.230.10", "netname": "EGOV"}, {"ip_address": "102.214.45.152", "netname": "ZICT1-v4"}, {"ip_address": "102.214.44.116", "netname": "ZICT1-v4"}, {"ip_address": "154.72.86.211", "netname": "RAHA"}, {"ip_address": "41.93.28.39", "netname": "TERNET-20100302"}, {"ip_address": "155.12.16.6", "netname": "SIMBANET-20150420"}, {"ip_address": "154.74.147.4", "netname": "TIGO-TZ"}, {"ip_address": "41.59.109.92", "netname": "TTCL1-20051207"}, {"ip_address": "154.74.8.98", "netname": "TIGO-TZ"}, {"ip_address": "41.59.100.22", "netname": "TTCL1-20051207"}, {"ip_address": "154.66.224.213", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "41.59.197.234", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.73.22", "netname": "EGOV"}, {"ip_address": "41.188.172.102", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.68.4", "netname": "TERNET-20100302"}, {"ip_address": "41.59.1.81", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.143.108", "netname": "Habari-Mwanza"}, {"ip_address": "102.223.16.98", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.223.236", "netname": "TTCL1-20051207"}, {"ip_address": "155.12.30.63", "netname": "SIMBANET-20150420"}, {"ip_address": "155.12.30.154", "netname": "SIMBANET-20150420"}, {"ip_address": "102.219.28.3", "netname": "TNECv4"}, {"ip_address": "154.73.170.197", "netname": "AZAM-MEDIA"}, {"ip_address": "196.41.76.33", "netname": "TCRA-TZCERT"}, {"ip_address": "41.73.203.194", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "102.220.185.182", "netname": "ZAPTECH-net"}, {"ip_address": "196.192.78.28", "netname": "EGOV"}, {"ip_address": "41.59.1.67", "netname": "TTCL1-20051207"}, {"ip_address": "154.118.228.154", "netname": "EGOV"}, {"ip_address": "41.59.202.101", "netname": "TTCL1-20051207"}, {"ip_address": "154.118.228.89", "netname": "EGOV"}, {"ip_address": "102.69.164.148", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.69.165.238", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.207.156", "netname": "TTCL1-20051207"}, {"ip_address": "41.222.176.242", "netname": "TIGO-TZ"}, {"ip_address": "196.46.101.105", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.226.4", "netname": "TTCL1-20051207"}, {"ip_address": "41.207.242.50", "netname": "APTUS-IPV4"}, {"ip_address": "154.118.231.180", "netname": "EGOV"}, {"ip_address": "41.93.112.15", "netname": "TERNET-20100302"}, {"ip_address": "196.192.77.32", "netname": "EGOV"}, {"ip_address": "154.118.230.212", "netname": "EGOV"}, {"ip_address": "154.118.224.146", "netname": "EGOV"}, {"ip_address": "102.177.81.113", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.59.227.47", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.112.134", "netname": "TERNET-20100302"}, {"ip_address": "41.59.227.178", "netname": "TTCL1-20051207"}, {"ip_address": "196.44.161.34", "netname": "UDARESSALAAM"}, {"ip_address": "102.214.45.24", "netname": "ZICT1-v4"}, {"ip_address": "102.219.204.199", "netname": "NL13-v4"}, {"ip_address": "41.220.136.137", "netname": "Habari-Mwanza"}, {"ip_address": "102.218.75.8", "netname": "GTL4-v4"}, {"ip_address": "154.72.20.2", "netname": "ctv-IPv4"}, {"ip_address": "41.59.103.127", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.228.25", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.64.3", "netname": "TERNET-20100302"}, {"ip_address": "196.192.77.197", "netname": "EGOV"}, {"ip_address": "41.59.199.210", "netname": "TTCL1-20051207"}, {"ip_address": "102.214.44.91", "netname": "ZICT1-v4"}, {"ip_address": "196.13.133.4", "netname": "TANZANIA-POST-BANK"}, {"ip_address": "41.59.227.68", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.77.95", "netname": "EGOV"}, {"ip_address": "41.93.112.22", "netname": "TERNET-20100302"}, {"ip_address": "41.59.203.115", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.63.8", "netname": "TERNET-20100302"}, {"ip_address": "41.59.86.100", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.115.28", "netname": "TTCL1-20051207"}, {"ip_address": "196.44.161.203", "netname": "UDARESSALAAM"}, {"ip_address": "102.223.7.230", "netname": "ZICT1-v4"}, {"ip_address": "154.74.8.107", "netname": "TIGO-TZ"}, {"ip_address": "196.192.79.86", "netname": "EGOV"}, {"ip_address": "154.118.227.225", "netname": "EGOV"}, {"ip_address": "196.192.78.50", "netname": "EGOV"}, {"ip_address": "41.59.108.156", "netname": "TTCL1-20051207"}, {"ip_address": "102.177.80.193", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.59.228.26", "netname": "TTCL1-20051207"}, {"ip_address": "217.29.130.151", "netname": "APTUS-IPV4"}, {"ip_address": "41.93.72.2", "netname": "TERNET-20100302"}, {"ip_address": "102.217.211.69", "netname": "CRDB-BANK-PLC"}, {"ip_address": "41.59.217.206", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.135.138", "netname": "Habari-Mwanza"}, {"ip_address": "102.219.172.1", "netname": "TOOTv4"}, {"ip_address": "154.0.153.136", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.104.35", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.142.221", "netname": "Habari-Mwanza"}, {"ip_address": "41.223.228.5", "netname": "SATCOM-TZ"}, {"ip_address": "196.216.247.117", "netname": "OUT"}, {"ip_address": "154.72.93.74", "netname": "RAHA"}, {"ip_address": "41.188.150.28", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.112.2", "netname": "TERNET-20100302"}, {"ip_address": "154.74.135.119", "netname": "TIGO-TZ"}, {"ip_address": "41.220.133.53", "netname": "Habari-Mwanza"}, {"ip_address": "155.12.50.2", "netname": "SIMBANET-20150420"}, {"ip_address": "102.214.30.5", "netname": "ISL3-v4"}, {"ip_address": "154.118.231.154", "netname": "EGOV"}, {"ip_address": "41.59.226.81", "netname": "TTCL1-20051207"}, {"ip_address": "102.214.44.130", "netname": "ZICT1-v4"}, {"ip_address": "102.68.71.6", "netname": "National-Identification-Authority"}, {"ip_address": "196.192.73.24", "netname": "EGOV"}, {"ip_address": "41.59.100.30", "netname": "TTCL1-20051207"}, {"ip_address": "196.43.221.27", "netname": "Tanzania-Ports-Authority"}, {"ip_address": "154.118.230.203", "netname": "EGOV"}, {"ip_address": "41.93.112.12", "netname": "TERNET-20100302"}, {"ip_address": "196.41.38.180", "netname": "RAHA"}, {"ip_address": "196.192.79.175", "netname": "EGOV"}, {"ip_address": "196.192.79.150", "netname": "EGOV"}, {"ip_address": "102.223.8.36", "netname": "EGOV"}, {"ip_address": "41.222.95.74", "netname": "BELL-FIBER"}, {"ip_address": "102.216.25.86", "netname": "CRDB-BANK-PLC"}, {"ip_address": "154.72.21.53", "netname": "ctv-IPv4"}, {"ip_address": "154.72.82.122", "netname": "RAHA"}, {"ip_address": "154.118.227.222", "netname": "EGOV"}, {"ip_address": "196.249.91.30", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "41.59.230.14", "netname": "TTCL1-20051207"}, {"ip_address": "196.41.36.194", "netname": "RAHA"}, {"ip_address": "41.59.196.18", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.62.149", "netname": "TERNET-20100302"}, {"ip_address": "41.93.59.3", "netname": "TERNET-20100302"}, {"ip_address": "41.220.133.51", "netname": "Habari-Mwanza"}, {"ip_address": "196.192.77.35", "netname": "EGOV"}, {"ip_address": "41.59.90.75", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.90.200", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.165.130", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.209.114", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.32.5", "netname": "TERNET-20100302"}, {"ip_address": "196.192.79.128", "netname": "EGOV"}, {"ip_address": "41.220.128.11", "netname": "Habari-Mwanza"}, {"ip_address": "196.192.77.126", "netname": "EGOV"}, {"ip_address": "41.188.138.42", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.28.42", "netname": "TERNET-20100302"}, {"ip_address": "154.74.160.43", "netname": "TIGO-TZ"}, {"ip_address": "41.59.192.49", "netname": "TTCL1-20051207"}, {"ip_address": "196.61.15.232", "netname": "Blink_Arusha"}, {"ip_address": "41.59.227.88", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.228.45", "netname": "TTCL1-20051207"}, {"ip_address": "41.221.49.51", "netname": "WIATZ"}, {"ip_address": "41.93.62.67", "netname": "TERNET-20100302"}, {"ip_address": "41.59.86.145", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.165.173", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.202.130", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.174.170", "netname": "SIMBANET-20150420"}, {"ip_address": "102.223.8.16", "netname": "EGOV"}, {"ip_address": "196.216.162.1", "netname": "tznic"}, {"ip_address": "165.16.197.16", "netname": "Computer-Sales-Services"}, {"ip_address": "217.29.133.2", "netname": "APTUS-IPV4"}, {"ip_address": "196.61.13.18", "netname": "Blink_Arusha"}, {"ip_address": "41.73.202.109", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "196.192.77.90", "netname": "EGOV"}, {"ip_address": "41.188.150.61", "netname": "SIMBANET-20150420"}, {"ip_address": "102.217.211.84", "netname": "CRDB-BANK-PLC"}, {"ip_address": "154.72.89.214", "netname": "RAHA"}, {"ip_address": "196.61.10.134", "netname": "Blink_Arusha"}, {"ip_address": "41.59.89.234", "netname": "TTCL1-20051207"}, {"ip_address": "102.217.211.32", "netname": "CRDB-BANK-PLC"}, {"ip_address": "154.118.227.21", "netname": "EGOV"}, {"ip_address": "41.59.230.3", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.104.217", "netname": "TTCL1-20051207"}, {"ip_address": "41.221.53.134", "netname": "WIATZ"}, {"ip_address": "196.44.161.155", "netname": "UDARESSALAAM"}, {"ip_address": "41.222.176.215", "netname": "TIGO-TZ"}, {"ip_address": "41.220.134.101", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.89.26", "netname": "TTCL1-20051207"}, {"ip_address": "102.214.44.14", "netname": "ZICT1-v4"}, {"ip_address": "217.29.129.166", "netname": "APTUS-IPV4"}, {"ip_address": "41.59.104.155", "netname": "TTCL1-20051207"}, {"ip_address": "102.218.244.12", "netname": "WINCABLE-AND-INTERNET-LIMITED"}, {"ip_address": "154.72.73.178", "netname": "RAHA"}, {"ip_address": "102.177.83.125", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "154.118.225.86", "netname": "EGOV"}, {"ip_address": "196.192.75.246", "netname": "EGOV"}, {"ip_address": "196.61.15.169", "netname": "Blink_Arusha"}, {"ip_address": "154.118.230.241", "netname": "EGOV"}, {"ip_address": "196.45.145.149", "netname": "CATS-NET-IP-2004"}, {"ip_address": "154.118.230.206", "netname": "EGOV"}, {"ip_address": "154.74.164.133", "netname": "TIGO-TZ"}, {"ip_address": "41.59.227.184", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.79.158", "netname": "EGOV"}, {"ip_address": "41.59.215.214", "netname": "TTCL1-20051207"}, {"ip_address": "102.177.82.13", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.93.82.163", "netname": "TERNET-20100302"}, {"ip_address": "102.214.30.24", "netname": "ISL3-v4"}, {"ip_address": "41.220.136.92", "netname": "Habari-Mwanza"}, {"ip_address": "102.221.117.117", "netname": "Azampay-Tanzania"}, {"ip_address": "196.61.15.124", "netname": "Blink_Arusha"}, {"ip_address": "196.192.77.87", "netname": "EGOV"}, {"ip_address": "41.59.194.37", "netname": "TTCL1-20051207"}, {"ip_address": "41.221.49.77", "netname": "WIATZ"}, {"ip_address": "41.59.86.146", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.225.246", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.199.124", "netname": "TTCL1-20051207"}, {"ip_address": "102.223.16.3", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.218.244.237", "netname": "WINCABLE-AND-INTERNET-LIMITED"}, {"ip_address": "102.212.82.33", "netname": "NATIONAL-BANK-OF-COMMERCE-LIMITED"}, {"ip_address": "41.93.78.138", "netname": "TERNET-20100302"}, {"ip_address": "41.207.242.22", "netname": "APTUS-IPV4"}, {"ip_address": "154.72.77.219", "netname": "RAHA"}, {"ip_address": "102.223.7.218", "netname": "ZICT1-v4"}, {"ip_address": "102.216.25.41", "netname": "CRDB-BANK-PLC"}, {"ip_address": "102.223.16.13", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.177.82.54", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.188.149.182", "netname": "SIMBANET-20150420"}, {"ip_address": "217.29.139.223", "netname": "APTUS-IPV4"}, {"ip_address": "41.59.24.52", "netname": "TTCL1-20051207"}, {"ip_address": "102.177.83.118", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "154.72.21.67", "netname": "ctv-IPv4"}, {"ip_address": "41.188.152.118", "netname": "SIMBANET-20150420"}, {"ip_address": "41.221.50.82", "netname": "WIATZ"}, {"ip_address": "154.72.82.99", "netname": "RAHA"}, {"ip_address": "41.73.197.201", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "154.74.145.11", "netname": "TIGO-TZ"}, {"ip_address": "102.223.8.10", "netname": "EGOV"}, {"ip_address": "41.220.133.49", "netname": "Habari-Mwanza"}, {"ip_address": "41.93.71.66", "netname": "TERNET-20100302"}, {"ip_address": "41.188.137.227", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.32.32", "netname": "TERNET-20100302"}, {"ip_address": "196.200.227.120", "netname": "APTUS-IPV4"}, {"ip_address": "41.221.54.110", "netname": "WIATZ"}, {"ip_address": "41.59.203.203", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.112.216", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.129.170", "netname": "Habari-Mwanza"}, {"ip_address": "196.192.79.147", "netname": "EGOV"}, {"ip_address": "102.221.117.79", "netname": "Azampay-Tanzania"}, {"ip_address": "102.214.45.133", "netname": "ZICT1-v4"}, {"ip_address": "41.220.136.177", "netname": "Habari-Mwanza"}, {"ip_address": "154.72.21.119", "netname": "ctv-IPv4"}, {"ip_address": "41.220.133.42", "netname": "Habari-Mwanza"}, {"ip_address": "154.72.95.29", "netname": "RAHA"}, {"ip_address": "196.61.10.60", "netname": "Blink_Arusha"}, {"ip_address": "154.118.230.226", "netname": "EGOV"}, {"ip_address": "102.177.80.4", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "154.72.20.74", "netname": "ctv-IPv4"}, {"ip_address": "41.223.228.30", "netname": "SATCOM-TZ"}, {"ip_address": "102.218.245.205", "netname": "WINCABLE-AND-INTERNET-LIMITED"}, {"ip_address": "41.188.156.252", "netname": "SIMBANET-20150420"}, {"ip_address": "41.188.150.51", "netname": "SIMBANET-20150420"}, {"ip_address": "217.29.131.203", "netname": "APTUS-IPV4"}, {"ip_address": "41.223.228.74", "netname": "SATCOM-TZ"}, {"ip_address": "102.69.164.16", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "154.74.146.178", "netname": "TIGO-TZ"}, {"ip_address": "102.217.211.29", "netname": "CRDB-BANK-PLC"}, {"ip_address": "192.231.237.29", "netname": "UBX-v4"}, {"ip_address": "41.59.230.16", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.57.200", "netname": "TTCL1-20051207"}, {"ip_address": "196.46.101.59", "netname": "TTCL1-20051207"}, {"ip_address": "154.0.153.17", "netname": "Habari-Mwanza"}, {"ip_address": "154.127.20.12", "netname": "BELL-FIBER"}, {"ip_address": "41.59.228.167", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.62.66", "netname": "TERNET-20100302"}, {"ip_address": "102.223.19.2", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "196.200.229.165", "netname": "APTUS-IPV4"}, {"ip_address": "154.118.230.222", "netname": "EGOV"}, {"ip_address": "196.200.227.254", "netname": "APTUS-IPV4"}, {"ip_address": "154.0.157.156", "netname": "Habari-Mwanza"}, {"ip_address": "196.200.229.25", "netname": "APTUS-IPV4"}, {"ip_address": "41.221.49.25", "netname": "WIATZ"}, {"ip_address": "41.221.49.171", "netname": "WIATZ"}, {"ip_address": "102.223.8.193", "netname": "EGOV"}, {"ip_address": "154.118.230.107", "netname": "EGOV"}, {"ip_address": "102.223.7.194", "netname": "ZICT1-v4"}, {"ip_address": "196.216.218.31", "netname": "NMB-BANK-Public-Limited-Company"}, {"ip_address": "154.118.227.18", "netname": "EGOV"}, {"ip_address": "155.12.30.40", "netname": "SIMBANET-20150420"}, {"ip_address": "169.239.0.169", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "154.72.82.3", "netname": "RAHA"}, {"ip_address": "102.223.7.65", "netname": "ZICT1-v4"}, {"ip_address": "41.220.137.131", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.57.140", "netname": "TTCL1-20051207"}, {"ip_address": "196.45.159.210", "netname": "CATS-NET-IP-2004"}, {"ip_address": "155.12.72.86", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.227.229", "netname": "TTCL1-20051207"}, {"ip_address": "41.73.202.106", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "154.72.65.194", "netname": "RAHA"}, {"ip_address": "41.59.211.98", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.254.120", "netname": "TTCL1-20051207"}, {"ip_address": "217.29.128.70", "netname": "APTUS-IPV4"}, {"ip_address": "41.93.63.6", "netname": "TERNET-20100302"}, {"ip_address": "169.239.2.117", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.220.133.2", "netname": "Habari-Mwanza"}, {"ip_address": "41.207.242.102", "netname": "APTUS-IPV4"}, {"ip_address": "41.59.86.195", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.32.41", "netname": "TERNET-20100302"}, {"ip_address": "196.45.155.82", "netname": "CATS-NET-IP-2004"}, {"ip_address": "196.44.161.229", "netname": "UDARESSALAAM"}, {"ip_address": "41.220.143.119", "netname": "Habari-Mwanza"}, {"ip_address": "41.220.131.183", "netname": "Habari-Mwanza"}, {"ip_address": "155.12.24.10", "netname": "SIMBANET-20150420"}, {"ip_address": "102.223.10.248", "netname": "EGOV"}, {"ip_address": "41.220.136.79", "netname": "Habari-Mwanza"}, {"ip_address": "196.192.79.229", "netname": "EGOV"}, {"ip_address": "41.59.85.34", "netname": "TTCL1-20051207"}, {"ip_address": "196.49.5.98", "netname": "TISPA-AIXP-MNGNT"}, {"ip_address": "102.219.205.177", "netname": "NL13-v4"}, {"ip_address": "154.72.78.30", "netname": "RAHA"}, {"ip_address": "41.59.99.201", "netname": "TTCL1-20051207"}, {"ip_address": "154.72.81.90", "netname": "RAHA"}, {"ip_address": "102.218.145.13", "netname": "ISOT"}, {"ip_address": "196.192.79.104", "netname": "EGOV"}, {"ip_address": "102.223.8.22", "netname": "EGOV"}, {"ip_address": "196.49.12.7", "netname": "TISPA-AIXP-MNGNT"}, {"ip_address": "196.249.77.17", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "102.223.7.242", "netname": "ZICT1-v4"}, {"ip_address": "196.249.77.34", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "154.72.86.215", "netname": "RAHA"}, {"ip_address": "41.59.227.82", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.79.167", "netname": "EGOV"}, {"ip_address": "102.223.7.50", "netname": "ZICT1-v4"}, {"ip_address": "102.223.7.29", "netname": "ZICT1-v4"}, {"ip_address": "41.221.51.166", "netname": "WIATZ"}, {"ip_address": "196.43.221.13", "netname": "Tanzania-Ports-Authority"}, {"ip_address": "154.72.77.100", "netname": "RAHA"}, {"ip_address": "102.223.7.98", "netname": "ZICT1-v4"}, {"ip_address": "154.0.153.120", "netname": "Habari-Mwanza"}, {"ip_address": "41.222.89.75", "netname": "BELL-FIBER"}, {"ip_address": "41.188.153.13", "netname": "SIMBANET-20150420"}, {"ip_address": "41.220.135.142", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.215.161", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.132.173", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.228.29", "netname": "TTCL1-20051207"}, {"ip_address": "196.61.11.254", "netname": "Blink_Arusha"}, {"ip_address": "41.220.134.204", "netname": "Habari-Mwanza"}, {"ip_address": "169.255.50.129", "netname": "Computer-Sales-Services"}, {"ip_address": "196.192.79.14", "netname": "EGOV"}, {"ip_address": "41.188.147.181", "netname": "SIMBANET-20150420"}, {"ip_address": "102.214.45.37", "netname": "ZICT1-v4"}, {"ip_address": "102.223.17.85", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.93.71.5", "netname": "TERNET-20100302"}, {"ip_address": "41.59.86.113", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.217.40", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.230.29", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.141.242", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.88.193", "netname": "TTCL1-20051207"}, {"ip_address": "102.223.8.34", "netname": "EGOV"}, {"ip_address": "154.118.231.207", "netname": "EGOV"}, {"ip_address": "196.192.79.210", "netname": "EGOV"}, {"ip_address": "196.200.227.198", "netname": "APTUS-IPV4"}, {"ip_address": "154.118.231.55", "netname": "EGOV"}, {"ip_address": "102.223.7.51", "netname": "ZICT1-v4"}, {"ip_address": "45.221.192.237", "netname": "Habari-Mwanza"}, {"ip_address": "196.41.86.27", "netname": "Softnet-Tech-v4"}, {"ip_address": "102.69.166.162", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "154.118.230.252", "netname": "EGOV"}, {"ip_address": "102.218.145.15", "netname": "ISOT"}, {"ip_address": "154.118.226.18", "netname": "EGOV"}, {"ip_address": "41.93.28.28", "netname": "TERNET-20100302"}, {"ip_address": "41.93.28.32", "netname": "TERNET-20100302"}, {"ip_address": "41.220.138.57", "netname": "Habari-Mwanza"}, {"ip_address": "41.222.88.78", "netname": "BELL-FIBER"}, {"ip_address": "154.73.170.113", "netname": "AZAM-MEDIA"}, {"ip_address": "102.64.67.254", "netname": "Net-Solutions"}, {"ip_address": "41.220.138.237", "netname": "Habari-Mwanza"}, {"ip_address": "102.218.145.10", "netname": "ISOT"}, {"ip_address": "41.207.244.5", "netname": "APTUS-IPV4"}, {"ip_address": "102.217.211.33", "netname": "CRDB-BANK-PLC"}, {"ip_address": "196.192.79.56", "netname": "EGOV"}, {"ip_address": "154.0.153.232", "netname": "Habari-Mwanza"}, {"ip_address": "196.249.91.18", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "154.118.229.11", "netname": "EGOV"}, {"ip_address": "196.249.84.86", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "196.43.221.34", "netname": "Tanzania-Ports-Authority"}, {"ip_address": "41.188.177.164", "netname": "SIMBANET-20150420"}, {"ip_address": "154.118.227.230", "netname": "EGOV"}, {"ip_address": "41.59.207.20", "netname": "TTCL1-20051207"}, {"ip_address": "41.223.228.150", "netname": "SATCOM-TZ"}, {"ip_address": "196.61.10.7", "netname": "Blink_Arusha"}, {"ip_address": "102.177.81.85", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.59.210.52", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.200.85", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.198.228", "netname": "TTCL1-20051207"}, {"ip_address": "154.118.226.74", "netname": "EGOV"}, {"ip_address": "154.0.157.23", "netname": "Habari-Mwanza"}, {"ip_address": "102.223.10.103", "netname": "EGOV"}, {"ip_address": "196.216.218.28", "netname": "NMB-BANK-Public-Limited-Company"}, {"ip_address": "154.0.153.132", "netname": "Habari-Mwanza"}, {"ip_address": "41.223.231.46", "netname": "SATCOM-TZ"}, {"ip_address": "102.223.0.254", "netname": "TIX-CDN"}, {"ip_address": "41.59.199.65", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.132.136", "netname": "Habari-Mwanza"}, {"ip_address": "196.44.161.17", "netname": "UDARESSALAAM"}, {"ip_address": "41.73.194.134", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "154.72.81.174", "netname": "RAHA"}, {"ip_address": "41.59.227.22", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.228.16", "netname": "TTCL1-20051207"}, {"ip_address": "196.249.77.20", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "41.220.141.70", "netname": "Habari-Mwanza"}, {"ip_address": "154.118.226.178", "netname": "EGOV"}, {"ip_address": "41.59.209.93", "netname": "TTCL1-20051207"}, {"ip_address": "217.29.131.146", "netname": "APTUS-IPV4"}, {"ip_address": "41.59.115.2", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.32.57", "netname": "TERNET-20100302"}, {"ip_address": "196.200.225.254", "netname": "APTUS-IPV4"}, {"ip_address": "41.59.226.68", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.128.92", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.198.44", "netname": "TTCL1-20051207"}, {"ip_address": "154.74.135.57", "netname": "TIGO-TZ"}, {"ip_address": "154.118.230.199", "netname": "EGOV"}, {"ip_address": "154.72.86.74", "netname": "RAHA"}, {"ip_address": "169.255.48.33", "netname": "Computer-Sales-Services"}, {"ip_address": "154.0.153.182", "netname": "Habari-Mwanza"}, {"ip_address": "41.78.168.201", "netname": "Habari-Mwanza"}, {"ip_address": "41.188.174.86", "netname": "SIMBANET-20150420"}, {"ip_address": "41.220.134.92", "netname": "Habari-Mwanza"}, {"ip_address": "102.214.47.27", "netname": "AT8"}, {"ip_address": "196.61.15.198", "netname": "Blink_Arusha"}, {"ip_address": "41.221.51.163", "netname": "WIATZ"}, {"ip_address": "41.73.210.110", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "154.118.224.21", "netname": "EGOV"}, {"ip_address": "197.149.176.221", "netname": "EGOV"}, {"ip_address": "169.239.0.137", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "102.177.80.77", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "196.249.77.42", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "41.221.49.103", "netname": "WIATZ"}, {"ip_address": "196.41.86.22", "netname": "Softnet-Tech-v4"}, {"ip_address": "41.93.112.144", "netname": "TERNET-20100302"}, {"ip_address": "41.59.89.232", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.77.44", "netname": "EGOV"}, {"ip_address": "155.12.49.2", "netname": "SIMBANET-20150420"}, {"ip_address": "155.12.17.225", "netname": "SIMBANET-20150420"}, {"ip_address": "41.221.50.10", "netname": "WIATZ"}, {"ip_address": "41.73.203.44", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "41.59.227.153", "netname": "TTCL1-20051207"}, {"ip_address": "217.29.131.92", "netname": "APTUS-IPV4"}, {"ip_address": "41.59.227.87", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.129.41", "netname": "Habari-Mwanza"}, {"ip_address": "102.64.66.226", "netname": "Net-Solutions"}, {"ip_address": "196.192.79.71", "netname": "EGOV"}, {"ip_address": "154.66.226.56", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "196.200.228.46", "netname": "APTUS-IPV4"}, {"ip_address": "45.221.192.20", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.86.228", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.78.2", "netname": "EGOV"}, {"ip_address": "41.220.135.148", "netname": "Habari-Mwanza"}, {"ip_address": "154.72.80.167", "netname": "RAHA"}, {"ip_address": "196.192.79.30", "netname": "EGOV"}, {"ip_address": "196.192.79.163", "netname": "EGOV"}, {"ip_address": "196.216.218.24", "netname": "NMB-BANK-Public-Limited-Company"}, {"ip_address": "41.59.198.197", "netname": "TTCL1-20051207"}, {"ip_address": "102.217.211.110", "netname": "CRDB-BANK-PLC"}, {"ip_address": "196.200.227.154", "netname": "APTUS-IPV4"}, {"ip_address": "41.59.225.232", "netname": "TTCL1-20051207"}, {"ip_address": "102.216.172.168", "netname": "World-Mobile-Chain-Limited"}, {"ip_address": "41.220.128.81", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.204.165", "netname": "TTCL1-20051207"}, {"ip_address": "196.45.130.82", "netname": "CATS-NET-IP-2004"}, {"ip_address": "154.74.140.85", "netname": "TIGO-TZ"}, {"ip_address": "217.29.128.148", "netname": "APTUS-IPV4"}, {"ip_address": "196.192.79.116", "netname": "EGOV"}, {"ip_address": "102.177.81.102", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.59.87.190", "netname": "TTCL1-20051207"}, {"ip_address": "102.177.81.50", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.188.169.250", "netname": "SIMBANET-20150420"}, {"ip_address": "154.66.225.101", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "41.223.228.68", "netname": "SATCOM-TZ"}, {"ip_address": "196.43.221.12", "netname": "Tanzania-Ports-Authority"}, {"ip_address": "154.118.229.102", "netname": "EGOV"}, {"ip_address": "154.66.224.54", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "102.69.166.244", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "196.41.36.6", "netname": "RAHA"}, {"ip_address": "41.221.58.62", "netname": "WIATZ"}, {"ip_address": "41.59.82.161", "netname": "TTCL1-20051207"}, {"ip_address": "154.72.22.73", "netname": "ctv-IPv4"}, {"ip_address": "102.69.164.202", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "154.72.74.26", "netname": "RAHA"}, {"ip_address": "196.41.37.10", "netname": "RAHA"}, {"ip_address": "102.221.117.121", "netname": "Azampay-Tanzania"}, {"ip_address": "41.221.50.190", "netname": "WIATZ"}, {"ip_address": "154.118.229.13", "netname": "EGOV"}, {"ip_address": "41.59.57.156", "netname": "TTCL1-20051207"}, {"ip_address": "196.44.161.108", "netname": "UDARESSALAAM"}, {"ip_address": "41.220.139.20", "netname": "Habari-Mwanza"}, {"ip_address": "196.61.15.228", "netname": "Blink_Arusha"}, {"ip_address": "41.93.32.23", "netname": "TERNET-20100302"}, {"ip_address": "196.192.77.101", "netname": "EGOV"}, {"ip_address": "41.220.135.133", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.85.192", "netname": "TTCL1-20051207"}, {"ip_address": "196.61.8.166", "netname": "Blink_Arusha"}, {"ip_address": "41.59.199.117", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.204.235", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.151.158", "netname": "SIMBANET-20150420"}, {"ip_address": "41.73.196.238", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "102.223.8.33", "netname": "EGOV"}, {"ip_address": "102.216.25.4", "netname": "CRDB-BANK-PLC"}, {"ip_address": "154.118.230.168", "netname": "EGOV"}, {"ip_address": "102.214.45.169", "netname": "ZICT1-v4"}, {"ip_address": "155.12.16.90", "netname": "SIMBANET-20150420"}, {"ip_address": "197.242.193.233", "netname": "BNHComm"}, {"ip_address": "154.118.225.218", "netname": "EGOV"}, {"ip_address": "154.74.160.164", "netname": "TIGO-TZ"}, {"ip_address": "196.46.101.64", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.209.69", "netname": "TTCL1-20051207"}, {"ip_address": "154.74.6.12", "netname": "TIGO-TZ"}, {"ip_address": "41.59.40.10", "netname": "TTCL1-20051207"}, {"ip_address": "154.73.168.125", "netname": "AZAM-MEDIA"}, {"ip_address": "196.192.79.190", "netname": "EGOV"}, {"ip_address": "41.78.170.12", "netname": "Habari-Mwanza"}, {"ip_address": "41.220.128.77", "netname": "Habari-Mwanza"}, {"ip_address": "196.200.232.68", "netname": "APTUS-IPV4"}, {"ip_address": "154.74.140.186", "netname": "TIGO-TZ"}, {"ip_address": "196.249.82.190", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "102.223.7.48", "netname": "ZICT1-v4"}, {"ip_address": "41.93.31.75", "netname": "TERNET-20100302"}, {"ip_address": "155.12.13.98", "netname": "SIMBANET-20150420"}, {"ip_address": "102.219.205.169", "netname": "NL13-v4"}, {"ip_address": "154.127.25.3", "netname": "BELL-FIBER"}, {"ip_address": "41.188.137.226", "netname": "SIMBANET-20150420"}, {"ip_address": "102.177.84.84", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "196.192.77.54", "netname": "EGOV"}, {"ip_address": "102.223.17.113", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.188.150.90", "netname": "SIMBANET-20150420"}, {"ip_address": "102.218.75.7", "netname": "GTL4-v4"}, {"ip_address": "102.223.8.140", "netname": "EGOV"}, {"ip_address": "102.69.165.211", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.227.76", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.156.254", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.82.11", "netname": "TERNET-20100302"}, {"ip_address": "41.59.103.182", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.150.21", "netname": "SIMBANET-20150420"}, {"ip_address": "196.249.77.43", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "154.0.154.165", "netname": "Habari-Mwanza"}, {"ip_address": "196.216.162.88", "netname": "tznic"}, {"ip_address": "41.59.86.97", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.57.194", "netname": "TTCL1-20051207"}, {"ip_address": "154.72.95.27", "netname": "RAHA"}, {"ip_address": "154.72.69.90", "netname": "RAHA"}, {"ip_address": "102.69.164.97", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.218.245.225", "netname": "WINCABLE-AND-INTERNET-LIMITED"}, {"ip_address": "41.59.225.33", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.223.237", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.79.241", "netname": "EGOV"}, {"ip_address": "196.61.8.165", "netname": "Blink_Arusha"}, {"ip_address": "41.221.49.129", "netname": "WIATZ"}, {"ip_address": "41.93.62.134", "netname": "TERNET-20100302"}, {"ip_address": "102.214.45.116", "netname": "ZICT1-v4"}, {"ip_address": "196.192.77.103", "netname": "EGOV"}, {"ip_address": "102.218.75.5", "netname": "GTL4-v4"}, {"ip_address": "41.221.49.122", "netname": "WIATZ"}, {"ip_address": "196.192.73.8", "netname": "EGOV"}, {"ip_address": "41.59.99.71", "netname": "TTCL1-20051207"}, {"ip_address": "102.221.117.130", "netname": "Azampay-Tanzania"}, {"ip_address": "41.59.87.150", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.135.84", "netname": "Habari-Mwanza"}, {"ip_address": "41.93.30.161", "netname": "TERNET-20100302"}, {"ip_address": "102.223.11.172", "netname": "EGOV"}, {"ip_address": "169.239.2.1", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.207.240.82", "netname": "APTUS-IPV4"}, {"ip_address": "102.68.66.85", "netname": "Exim-Bank-TZ"}, {"ip_address": "41.188.149.132", "netname": "SIMBANET-20150420"}, {"ip_address": "196.41.37.78", "netname": "RAHA"}, {"ip_address": "196.61.10.57", "netname": "Blink_Arusha"}, {"ip_address": "102.177.83.45", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "154.74.164.65", "netname": "TIGO-TZ"}, {"ip_address": "102.223.16.69", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.217.211.121", "netname": "CRDB-BANK-PLC"}, {"ip_address": "196.192.79.113", "netname": "EGOV"}, {"ip_address": "154.72.22.206", "netname": "ctv-IPv4"}, {"ip_address": "102.218.144.14", "netname": "ISOT"}, {"ip_address": "41.221.62.174", "netname": "WIATZ"}, {"ip_address": "41.93.60.3", "netname": "TERNET-20100302"}, {"ip_address": "41.79.69.14", "netname": "APTUS-IPV4"}, {"ip_address": "102.223.7.73", "netname": "ZICT1-v4"}, {"ip_address": "154.72.93.65", "netname": "RAHA"}, {"ip_address": "41.59.228.200", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.165.221", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.225.89", "netname": "TTCL1-20051207"}, {"ip_address": "196.45.153.22", "netname": "CATS-NET-IP-2004"}, {"ip_address": "41.59.230.61", "netname": "TTCL1-20051207"}, {"ip_address": "102.223.7.95", "netname": "ZICT1-v4"}, {"ip_address": "102.217.211.127", "netname": "CRDB-BANK-PLC"}, {"ip_address": "155.12.52.102", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.227.242", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.150.92", "netname": "SIMBANET-20150420"}, {"ip_address": "196.43.78.51", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.62.155", "netname": "TERNET-20100302"}, {"ip_address": "196.44.161.231", "netname": "UDARESSALAAM"}, {"ip_address": "41.220.135.180", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.204.177", "netname": "TTCL1-20051207"}, {"ip_address": "102.217.211.68", "netname": "CRDB-BANK-PLC"}, {"ip_address": "102.221.117.78", "netname": "Azampay-Tanzania"}, {"ip_address": "41.221.49.121", "netname": "WIATZ"}, {"ip_address": "196.192.79.103", "netname": "EGOV"}, {"ip_address": "41.222.176.194", "netname": "TIGO-TZ"}, {"ip_address": "41.222.176.222", "netname": "TIGO-TZ"}, {"ip_address": "41.221.49.41", "netname": "WIATZ"}, {"ip_address": "41.220.141.81", "netname": "Habari-Mwanza"}, {"ip_address": "154.118.228.82", "netname": "EGOV"}, {"ip_address": "154.73.168.64", "netname": "AZAM-MEDIA"}, {"ip_address": "196.44.161.133", "netname": "UDARESSALAAM"}, {"ip_address": "102.223.7.167", "netname": "ZICT1-v4"}, {"ip_address": "102.223.0.253", "netname": "TIX-CDN"}, {"ip_address": "196.192.75.78", "netname": "EGOV"}, {"ip_address": "154.118.230.66", "netname": "EGOV"}, {"ip_address": "41.78.64.38", "netname": "UD-20100113"}, {"ip_address": "155.12.15.114", "netname": "SIMBANET-20150420"}, {"ip_address": "196.192.79.65", "netname": "EGOV"}, {"ip_address": "154.66.226.111", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "41.93.32.52", "netname": "TERNET-20100302"}, {"ip_address": "154.118.230.230", "netname": "EGOV"}, {"ip_address": "41.59.215.251", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.85.75", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.164.18", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "197.149.179.125", "netname": "EGOV"}, {"ip_address": "102.177.83.250", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.188.139.70", "netname": "SIMBANET-20150420"}, {"ip_address": "41.221.36.139", "netname": "SIMBANET-20150420"}, {"ip_address": "102.214.45.158", "netname": "ZICT1-v4"}, {"ip_address": "196.216.247.109", "netname": "OUT"}, {"ip_address": "41.220.135.137", "netname": "Habari-Mwanza"}, {"ip_address": "197.149.178.228", "netname": "EGOV"}, {"ip_address": "197.149.176.83", "netname": "EGOV"}, {"ip_address": "154.118.226.26", "netname": "EGOV"}, {"ip_address": "154.118.230.245", "netname": "EGOV"}, {"ip_address": "41.78.64.19", "netname": "UD-20100113"}, {"ip_address": "196.192.79.162", "netname": "EGOV"}, {"ip_address": "41.188.151.122", "netname": "SIMBANET-20150420"}, {"ip_address": "41.223.228.80", "netname": "SATCOM-TZ"}, {"ip_address": "196.192.75.14", "netname": "EGOV"}, {"ip_address": "41.188.180.2", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.98.180", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.78.60", "netname": "EGOV"}, {"ip_address": "41.221.50.158", "netname": "WIATZ"}, {"ip_address": "102.210.54.2", "netname": "FASTHUB"}, {"ip_address": "217.29.130.146", "netname": "APTUS-IPV4"}, {"ip_address": "102.64.66.178", "netname": "Net-Solutions"}, {"ip_address": "41.59.89.222", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.179.6", "netname": "SIMBANET-20150420"}, {"ip_address": "41.220.130.227", "netname": "Habari-Mwanza"}, {"ip_address": "102.214.44.85", "netname": "ZICT1-v4"}, {"ip_address": "155.12.53.21", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.60.4", "netname": "TERNET-20100302"}, {"ip_address": "102.68.66.42", "netname": "Exim-Bank-TZ"}, {"ip_address": "197.242.192.22", "netname": "BNHComm"}, {"ip_address": "154.74.133.5", "netname": "TIGO-TZ"}, {"ip_address": "102.221.117.120", "netname": "Azampay-Tanzania"}, {"ip_address": "41.93.90.11", "netname": "TERNET-20100302"}, {"ip_address": "165.16.192.21", "netname": "Computer-Sales-Services"}, {"ip_address": "41.59.103.94", "netname": "TTCL1-20051207"}, {"ip_address": "41.73.194.135", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "41.220.139.124", "netname": "Habari-Mwanza"}, {"ip_address": "196.41.86.57", "netname": "Softnet-Tech-v4"}, {"ip_address": "41.73.213.60", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "41.188.150.187", "netname": "SIMBANET-20150420"}, {"ip_address": "41.221.48.231", "netname": "WIATZ"}, {"ip_address": "196.192.79.208", "netname": "EGOV"}, {"ip_address": "41.86.172.11", "netname": "UDARESSALAAM"}, {"ip_address": "41.59.225.242", "netname": "TTCL1-20051207"}, {"ip_address": "102.216.25.88", "netname": "CRDB-BANK-PLC"}, {"ip_address": "41.78.64.6", "netname": "UD-20100113"}, {"ip_address": "196.44.161.184", "netname": "UDARESSALAAM"}, {"ip_address": "41.74.114.26", "netname": "MILAN-CABLE"}, {"ip_address": "41.59.218.18", "netname": "TTCL1-20051207"}, {"ip_address": "192.231.237.105", "netname": "UBX-v4"}, {"ip_address": "41.59.199.254", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.228.88", "netname": "TTCL1-20051207"}, {"ip_address": "154.72.67.69", "netname": "RAHA"}, {"ip_address": "102.223.7.191", "netname": "ZICT1-v4"}, {"ip_address": "217.29.128.146", "netname": "APTUS-IPV4"}, {"ip_address": "41.188.138.49", "netname": "SIMBANET-20150420"}, {"ip_address": "196.46.101.39", "netname": "TTCL1-20051207"}, {"ip_address": "196.41.86.62", "netname": "Softnet-Tech-v4"}, {"ip_address": "154.73.168.165", "netname": "AZAM-MEDIA"}, {"ip_address": "41.221.49.74", "netname": "WIATZ"}, {"ip_address": "102.214.45.131", "netname": "ZICT1-v4"}, {"ip_address": "41.220.135.147", "netname": "Habari-Mwanza"}, {"ip_address": "41.78.168.12", "netname": "Habari-Mwanza"}, {"ip_address": "41.73.197.194", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "41.59.88.252", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.63.11", "netname": "TERNET-20100302"}, {"ip_address": "196.192.79.182", "netname": "EGOV"}, {"ip_address": "196.192.77.18", "netname": "EGOV"}, {"ip_address": "102.218.244.225", "netname": "WINCABLE-AND-INTERNET-LIMITED"}, {"ip_address": "102.69.164.149", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.69.165.103", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.204.151.9", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "169.255.187.66", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "169.239.1.5", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "102.219.83.50", "netname": "COBE-v4"}, {"ip_address": "154.0.153.35", "netname": "Habari-Mwanza"}, {"ip_address": "41.221.49.17", "netname": "WIATZ"}, {"ip_address": "196.192.77.29", "netname": "EGOV"}, {"ip_address": "154.74.164.151", "netname": "TIGO-TZ"}, {"ip_address": "155.12.30.49", "netname": "SIMBANET-20150420"}, {"ip_address": "192.231.237.88", "netname": "UBX-v4"}, {"ip_address": "41.59.228.146", "netname": "TTCL1-20051207"}, {"ip_address": "41.204.128.16", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "154.72.65.198", "netname": "RAHA"}, {"ip_address": "41.93.32.58", "netname": "TERNET-20100302"}, {"ip_address": "155.12.30.140", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.196.138", "netname": "TTCL1-20051207"}, {"ip_address": "102.216.175.88", "netname": "World-Mobile-Chain-Limited"}, {"ip_address": "196.249.89.62", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "41.59.1.126", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.199.88", "netname": "TTCL1-20051207"}, {"ip_address": "102.217.211.113", "netname": "CRDB-BANK-PLC"}, {"ip_address": "154.74.7.94", "netname": "TIGO-TZ"}, {"ip_address": "169.239.0.134", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "102.219.172.2", "netname": "TOOTv4"}, {"ip_address": "41.59.227.212", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.88.4", "netname": "TERNET-20100302"}, {"ip_address": "154.74.3.94", "netname": "TIGO-TZ"}, {"ip_address": "41.93.54.6", "netname": "TERNET-20100302"}, {"ip_address": "196.192.79.172", "netname": "EGOV"}, {"ip_address": "196.41.76.57", "netname": "TCRA-TZCERT"}, {"ip_address": "102.177.83.113", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.59.227.104", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.167.203", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.59.227.230", "netname": "TTCL1-20051207"}, {"ip_address": "154.74.3.106", "netname": "TIGO-TZ"}, {"ip_address": "197.242.192.7", "netname": "BNHComm"}, {"ip_address": "102.64.66.150", "netname": "Net-Solutions"}, {"ip_address": "154.66.226.92", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "41.59.57.230", "netname": "TTCL1-20051207"}, {"ip_address": "154.74.146.106", "netname": "TIGO-TZ"}, {"ip_address": "154.66.226.48", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "154.127.25.155", "netname": "BELL-FIBER"}, {"ip_address": "102.216.25.91", "netname": "CRDB-BANK-PLC"}, {"ip_address": "102.216.25.66", "netname": "CRDB-BANK-PLC"}, {"ip_address": "102.69.164.102", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "196.192.79.169", "netname": "EGOV"}, {"ip_address": "196.45.154.90", "netname": "CATS-NET-IP-2004"}, {"ip_address": "154.74.8.100", "netname": "TIGO-TZ"}, {"ip_address": "192.231.237.122", "netname": "UBX-v4"}, {"ip_address": "196.192.75.54", "netname": "EGOV"}, {"ip_address": "102.69.165.197", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.93.65.98", "netname": "TERNET-20100302"}, {"ip_address": "102.221.117.70", "netname": "Azampay-Tanzania"}, {"ip_address": "41.78.168.239", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.100.96", "netname": "TTCL1-20051207"}, {"ip_address": "102.218.244.3", "netname": "WINCABLE-AND-INTERNET-LIMITED"}, {"ip_address": "196.216.247.102", "netname": "OUT"}, {"ip_address": "192.231.237.83", "netname": "UBX-v4"}, {"ip_address": "102.223.11.197", "netname": "EGOV"}, {"ip_address": "41.59.230.17", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.141.248", "netname": "Habari-Mwanza"}, {"ip_address": "41.220.142.108", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.91.197", "netname": "TTCL1-20051207"}, {"ip_address": "196.249.76.198", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "41.220.139.163", "netname": "Habari-Mwanza"}, {"ip_address": "154.72.95.146", "netname": "RAHA"}, {"ip_address": "197.149.178.94", "netname": "EGOV"}, {"ip_address": "196.45.154.92", "netname": "CATS-NET-IP-2004"}, {"ip_address": "41.93.71.85", "netname": "TERNET-20100302"}, {"ip_address": "41.59.227.85", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.62.103", "netname": "TERNET-20100302"}, {"ip_address": "154.72.93.82", "netname": "RAHA"}, {"ip_address": "155.12.52.243", "netname": "SIMBANET-20150420"}, {"ip_address": "169.255.48.49", "netname": "Computer-Sales-Services"}, {"ip_address": "102.177.84.225", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "102.214.45.106", "netname": "ZICT1-v4"}, {"ip_address": "41.220.129.98", "netname": "Habari-Mwanza"}, {"ip_address": "41.188.182.26", "netname": "SIMBANET-20150420"}, {"ip_address": "154.72.82.4", "netname": "RAHA"}, {"ip_address": "154.74.134.238", "netname": "TIGO-TZ"}, {"ip_address": "196.49.5.50", "netname": "TISPA-AIXP-MNGNT"}, {"ip_address": "196.61.15.229", "netname": "Blink_Arusha"}, {"ip_address": "41.59.101.212", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.129.4", "netname": "Habari-Mwanza"}, {"ip_address": "41.221.49.28", "netname": "WIATZ"}, {"ip_address": "41.188.153.9", "netname": "SIMBANET-20150420"}, {"ip_address": "41.93.31.66", "netname": "TERNET-20100302"}, {"ip_address": "41.59.100.99", "netname": "TTCL1-20051207"}, {"ip_address": "154.118.231.144", "netname": "EGOV"}, {"ip_address": "196.200.226.26", "netname": "APTUS-IPV4"}, {"ip_address": "154.74.148.70", "netname": "TIGO-TZ"}, {"ip_address": "41.78.64.52", "netname": "UD-20100113"}, {"ip_address": "196.216.247.104", "netname": "OUT"}, {"ip_address": "154.0.153.130", "netname": "Habari-Mwanza"}, {"ip_address": "102.223.10.220", "netname": "EGOV"}, {"ip_address": "41.59.223.145", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.77.86", "netname": "EGOV"}, {"ip_address": "41.221.32.201", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.86.114", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.79.177", "netname": "EGOV"}, {"ip_address": "102.68.67.42", "netname": "Exim-Bank-TZ"}, {"ip_address": "196.216.162.68", "netname": "tznic"}, {"ip_address": "102.211.68.66", "netname": "BARMEDAS-TANZANIA"}, {"ip_address": "41.188.142.25", "netname": "SIMBANET-20150420"}, {"ip_address": "196.192.78.108", "netname": "EGOV"}, {"ip_address": "41.59.193.148", "netname": "TTCL1-20051207"}, {"ip_address": "196.200.226.186", "netname": "APTUS-IPV4"}, {"ip_address": "41.73.197.204", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "196.192.79.96", "netname": "EGOV"}, {"ip_address": "169.255.51.157", "netname": "Computer-Sales-Services"}, {"ip_address": "196.192.77.43", "netname": "EGOV"}, {"ip_address": "41.220.133.214", "netname": "Habari-Mwanza"}, {"ip_address": "102.217.211.107", "netname": "CRDB-BANK-PLC"}, {"ip_address": "45.221.192.5", "netname": "Habari-Mwanza"}, {"ip_address": "102.219.204.129", "netname": "NL13-v4"}, {"ip_address": "155.12.75.142", "netname": "SIMBANET-20150420"}, {"ip_address": "154.74.134.206", "netname": "TIGO-TZ"}, {"ip_address": "41.59.91.172", "netname": "TTCL1-20051207"}, {"ip_address": "154.72.66.238", "netname": "RAHA"}, {"ip_address": "41.220.137.54", "netname": "Habari-Mwanza"}, {"ip_address": "102.219.28.4", "netname": "TNECv4"}, {"ip_address": "41.221.48.236", "netname": "WIATZ"}, {"ip_address": "165.16.192.9", "netname": "Computer-Sales-Services"}, {"ip_address": "41.188.150.18", "netname": "SIMBANET-20150420"}, {"ip_address": "102.69.165.94", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.223.17.105", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "41.93.71.65", "netname": "TERNET-20100302"}, {"ip_address": "102.219.28.10", "netname": "TNECv4"}, {"ip_address": "102.223.17.25", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "102.214.45.120", "netname": "ZICT1-v4"}, {"ip_address": "41.59.108.230", "netname": "TTCL1-20051207"}, {"ip_address": "155.12.30.52", "netname": "SIMBANET-20150420"}, {"ip_address": "154.72.22.81", "netname": "ctv-IPv4"}, {"ip_address": "154.72.93.68", "netname": "RAHA"}, {"ip_address": "41.59.1.85", "netname": "TTCL1-20051207"}, {"ip_address": "41.222.89.26", "netname": "BELL-FIBER"}, {"ip_address": "41.59.217.45", "netname": "TTCL1-20051207"}, {"ip_address": "196.216.162.80", "netname": "tznic"}, {"ip_address": "41.221.49.102", "netname": "WIATZ"}, {"ip_address": "41.93.59.92", "netname": "TERNET-20100302"}, {"ip_address": "41.59.202.116", "netname": "TTCL1-20051207"}, {"ip_address": "155.12.15.218", "netname": "SIMBANET-20150420"}, {"ip_address": "154.118.228.3", "netname": "EGOV"}, {"ip_address": "154.118.228.242", "netname": "EGOV"}, {"ip_address": "102.177.83.62", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "41.59.100.42", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.86.10", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.77.28", "netname": "EGOV"}, {"ip_address": "41.59.225.118", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.79.16", "netname": "EGOV"}, {"ip_address": "41.221.49.33", "netname": "WIATZ"}, {"ip_address": "41.221.34.194", "netname": "SIMBANET-20150420"}, {"ip_address": "154.72.75.202", "netname": "RAHA"}, {"ip_address": "102.214.45.67", "netname": "ZICT1-v4"}, {"ip_address": "196.44.161.22", "netname": "UDARESSALAAM"}, {"ip_address": "41.221.49.45", "netname": "WIATZ"}, {"ip_address": "41.59.200.58", "netname": "TTCL1-20051207"}, {"ip_address": "154.72.93.90", "netname": "RAHA"}, {"ip_address": "41.59.197.196", "netname": "TTCL1-20051207"}, {"ip_address": "102.69.164.15", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "154.74.148.42", "netname": "TIGO-TZ"}, {"ip_address": "155.12.22.27", "netname": "SIMBANET-20150420"}, {"ip_address": "41.74.112.231", "netname": "MILAN-CABLE"}, {"ip_address": "41.223.228.205", "netname": "SATCOM-TZ"}, {"ip_address": "217.29.134.54", "netname": "APTUS-IPV4"}, {"ip_address": "41.93.90.6", "netname": "TERNET-20100302"}, {"ip_address": "41.59.97.57", "netname": "TTCL1-20051207"}, {"ip_address": "196.192.77.97", "netname": "EGOV"}, {"ip_address": "169.255.114.166", "netname": "Capital-Technologies"}, {"ip_address": "41.59.112.192", "netname": "TTCL1-20051207"}, {"ip_address": "154.118.229.146", "netname": "EGOV"}, {"ip_address": "41.188.139.62", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.203.231", "netname": "TTCL1-20051207"}, {"ip_address": "155.12.60.38", "netname": "SIMBANET-20150420"}, {"ip_address": "154.74.3.81", "netname": "TIGO-TZ"}, {"ip_address": "154.118.231.60", "netname": "EGOV"}, {"ip_address": "154.74.164.61", "netname": "TIGO-TZ"}, {"ip_address": "196.192.73.131", "netname": "EGOV"}, {"ip_address": "41.59.228.204", "netname": "TTCL1-20051207"}, {"ip_address": "102.223.17.1", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "155.12.16.85", "netname": "SIMBANET-20150420"}, {"ip_address": "41.220.132.140", "netname": "Habari-Mwanza"}, {"ip_address": "196.249.76.62", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "154.127.25.41", "netname": "BELL-FIBER"}, {"ip_address": "41.59.227.72", "netname": "TTCL1-20051207"}, {"ip_address": "196.61.10.136", "netname": "Blink_Arusha"}, {"ip_address": "102.217.211.92", "netname": "CRDB-BANK-PLC"}, {"ip_address": "154.66.227.42", "netname": "ZNZCONNECT-COMNET-TZ"}, {"ip_address": "41.188.136.115", "netname": "SIMBANET-20150420"}, {"ip_address": "41.188.136.74", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.230.50", "netname": "TTCL1-20051207"}, {"ip_address": "41.188.149.75", "netname": "SIMBANET-20150420"}, {"ip_address": "196.44.161.251", "netname": "UDARESSALAAM"}, {"ip_address": "196.44.161.80", "netname": "UDARESSALAAM"}, {"ip_address": "41.73.194.139", "netname": "MIC-TANZANIA-LTD"}, {"ip_address": "41.188.181.198", "netname": "SIMBANET-20150420"}, {"ip_address": "41.220.138.214", "netname": "Habari-Mwanza"}, {"ip_address": "102.221.117.164", "netname": "Azampay-Tanzania"}, {"ip_address": "155.12.53.11", "netname": "SIMBANET-20150420"}, {"ip_address": "154.74.133.3", "netname": "TIGO-TZ"}, {"ip_address": "196.192.77.22", "netname": "EGOV"}, {"ip_address": "155.12.30.81", "netname": "SIMBANET-20150420"}, {"ip_address": "196.192.77.11", "netname": "EGOV"}, {"ip_address": "102.177.80.58", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "217.29.133.9", "netname": "APTUS-IPV4"}, {"ip_address": "154.72.94.190", "netname": "RAHA"}, {"ip_address": "41.221.49.31", "netname": "WIATZ"}, {"ip_address": "154.74.140.81", "netname": "TIGO-TZ"}, {"ip_address": "154.72.73.210", "netname": "RAHA"}, {"ip_address": "154.72.22.226", "netname": "ctv-IPv4"}, {"ip_address": "41.221.49.186", "netname": "WIATZ"}, {"ip_address": "102.223.7.12", "netname": "ZICT1-v4"}, {"ip_address": "41.220.143.81", "netname": "Habari-Mwanza"}, {"ip_address": "196.44.161.77", "netname": "UDARESSALAAM"}, {"ip_address": "196.249.69.98", "netname": "VIETTEL-TANZANIA"}, {"ip_address": "102.177.84.83", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "196.61.10.78", "netname": "Blink_Arusha"}, {"ip_address": "102.214.45.154", "netname": "ZICT1-v4"}, {"ip_address": "41.220.133.44", "netname": "Habari-Mwanza"}, {"ip_address": "196.192.73.3", "netname": "EGOV"}, {"ip_address": "155.12.30.77", "netname": "SIMBANET-20150420"}, {"ip_address": "192.231.237.16", "netname": "UBX-v4"}, {"ip_address": "41.188.153.93", "netname": "SIMBANET-20150420"}, {"ip_address": "154.74.164.42", "netname": "TIGO-TZ"}, {"ip_address": "169.239.1.54", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "45.221.192.10", "netname": "Habari-Mwanza"}, {"ip_address": "41.59.227.108", "netname": "TTCL1-20051207"}, {"ip_address": "196.44.161.220", "netname": "UDARESSALAAM"}, {"ip_address": "41.59.87.130", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.224.41", "netname": "TTCL1-20051207"}, {"ip_address": "41.221.52.186", "netname": "WIATZ"}, {"ip_address": "196.192.78.138", "netname": "EGOV"}, {"ip_address": "41.59.225.108", "netname": "TTCL1-20051207"}, {"ip_address": "41.221.49.36", "netname": "WIATZ"}, {"ip_address": "41.59.198.78", "netname": "TTCL1-20051207"}, {"ip_address": "41.93.28.22", "netname": "TERNET-20100302"}, {"ip_address": "196.192.79.100", "netname": "EGOV"}, {"ip_address": "41.59.225.117", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.209.64", "netname": "TTCL1-20051207"}, {"ip_address": "102.177.83.115", "netname": "SIMPLYCONNECT-SUBNETS"}, {"ip_address": "196.44.161.105", "netname": "UDARESSALAAM"}, {"ip_address": "217.29.130.150", "netname": "APTUS-IPV4"}, {"ip_address": "154.118.230.113", "netname": "EGOV"}, {"ip_address": "102.223.7.183", "netname": "ZICT1-v4"}, {"ip_address": "41.59.90.210", "netname": "TTCL1-20051207"}, {"ip_address": "41.220.133.170", "netname": "Habari-Mwanza"}, {"ip_address": "196.192.77.111", "netname": "EGOV"}, {"ip_address": "41.222.89.122", "netname": "BELL-FIBER"}, {"ip_address": "154.74.7.81", "netname": "TIGO-TZ"}, {"ip_address": "154.73.170.120", "netname": "AZAM-MEDIA"}, {"ip_address": "102.223.8.180", "netname": "EGOV"}, {"ip_address": "41.78.64.48", "netname": "UD-20100113"}, {"ip_address": "169.255.51.9", "netname": "Computer-Sales-Services"}, {"ip_address": "196.61.10.210", "netname": "Blink_Arusha"}, {"ip_address": "102.216.25.110", "netname": "CRDB-BANK-PLC"}, {"ip_address": "41.207.240.126", "netname": "APTUS-IPV4"}, {"ip_address": "41.221.49.37", "netname": "WIATZ"}, {"ip_address": "155.12.30.61", "netname": "SIMBANET-20150420"}, {"ip_address": "155.12.50.174", "netname": "SIMBANET-20150420"}, {"ip_address": "196.43.78.59", "netname": "TTCL1-20051207"}, {"ip_address": "41.223.228.75", "netname": "SATCOM-TZ"}, {"ip_address": "217.29.132.9", "netname": "APTUS-IPV4"}, {"ip_address": "41.188.149.134", "netname": "SIMBANET-20150420"}, {"ip_address": "41.79.69.78", "netname": "APTUS-IPV4"}, {"ip_address": "102.69.164.81", "netname": "Flashnet-Technologies-Limited"}, {"ip_address": "155.12.15.219", "netname": "SIMBANET-20150420"}, {"ip_address": "41.59.99.24", "netname": "TTCL1-20051207"}, {"ip_address": "41.223.230.89", "netname": "SATCOM-TZ"}, {"ip_address": "196.192.79.160", "netname": "EGOV"}, {"ip_address": "102.223.7.118", "netname": "ZICT1-v4"}, {"ip_address": "41.59.82.173", "netname": "TTCL1-20051207"}, {"ip_address": "41.59.109.110", "netname": "TTCL1-20051207"}]}
+{
+    "total_ip_addresses_checked": 474880,
+    "valid_ip_addresses_count": 1128,
+    "valid_ip_addresses": [
+        {
+            "ip_address": "41.74.121.42",
+            "netname": "MILAN-CABLE"
+        },
+        {
+            "ip_address": "41.59.202.99",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.138.241",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.114.2",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.188.165.130",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.254.212",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.87.236",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.73.193.105",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "154.118.229.158",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.73.203.42",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "196.46.101.118",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.221.49.38",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.220.131.43",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.177.81.193",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "196.192.79.114",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.127.25.16",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "196.29.48.190",
+            "netname": "ECHOTEL-T-2"
+        },
+        {
+            "ip_address": "196.192.73.17",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "197.149.176.106",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.130.178",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.118.229.18",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.228.141",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.162.94",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.223.228.202",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "154.72.22.217",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "102.219.204.130",
+            "netname": "NL13-v4"
+        },
+        {
+            "ip_address": "41.220.135.38",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.93.53.47",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.108.166",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.155.167",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.90.56",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.85.44",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "155.12.60.43",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "155.12.16.91",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "169.255.49.254",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "102.223.17.117",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "154.118.228.174",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.74.7.84",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.44.161.149",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "197.149.178.166",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.209.100",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.228.186",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.211.42",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.74.140.83",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.192.79.73",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.7.170",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "154.74.148.146",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "154.118.230.217",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.221.32.198",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.72.91.83",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.200.226.130",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.223.7.11",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.223.16.181",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.220.130.106",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "169.255.50.29",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "102.219.28.8",
+            "netname": "TNECv4"
+        },
+        {
+            "ip_address": "41.188.138.62",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.225.81",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.13.133.16",
+            "netname": "TANZANIA-POST-BANK"
+        },
+        {
+            "ip_address": "41.220.139.18",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.216.25.94",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "102.69.167.192",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "196.192.79.66",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.58.222",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.223.16.233",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "154.74.160.18",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "102.223.7.9",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.59.227.240",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "155.12.15.35",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.72.81.69",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.227.180",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.128.85",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.93.112.21",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.113.121",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.221.48.252",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.73.218.12",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "41.59.228.8",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.118.230.78",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.227.79",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.166.51",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.188.150.54",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.223.231.130",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "41.59.85.66",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.143.90",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.200.227.253",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.93.62.99",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.228.96",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.108.130",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "169.255.114.98",
+            "netname": "Capital-Technologies"
+        },
+        {
+            "ip_address": "41.188.157.204",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.192.79.46",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.87.158",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "217.29.129.2",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.93.62.141",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.220.143.41",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.188.156.205",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.223.8.43",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.223.231.180",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "41.78.168.243",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.69.164.147",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "196.49.5.121",
+            "netname": "TISPA-AIXP-MNGNT"
+        },
+        {
+            "ip_address": "102.177.81.41",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "196.200.226.174",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "196.44.161.145",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.220.133.16",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.220.133.223",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.93.32.130",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "154.72.65.46",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.78.169.69",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.188.142.79",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.90.201",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.173.198",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.220.131.35",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "217.29.139.246",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.223.17.221",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.227.19",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.44.161.101",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "102.214.45.194",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "192.231.237.77",
+            "netname": "UBX-v4"
+        },
+        {
+            "ip_address": "217.29.132.29",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.69.164.68",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "196.216.247.106",
+            "netname": "OUT"
+        },
+        {
+            "ip_address": "41.93.92.18",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.221.49.10",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.220.142.224",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "155.12.22.50",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.192.79.40",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.101.223",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.167.113",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.69.164.6",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "169.255.48.34",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "196.29.48.110",
+            "netname": "ECHOTEL-T-2"
+        },
+        {
+            "ip_address": "154.118.229.35",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.77.85",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.79.111",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "155.12.18.26",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "169.239.2.10",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "102.216.25.33",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "196.216.218.62",
+            "netname": "NMB-BANK-Public-Limited-Company"
+        },
+        {
+            "ip_address": "154.66.224.184",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "41.79.69.187",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.66.224.152",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "196.192.78.61",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.225.34",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.214.44.83",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "154.72.82.7",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.192.79.28",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.44.161.83",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "196.192.77.91",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.143.7",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.192.77.40",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.93.113.196",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "155.12.53.229",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.72.92.231",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.216.25.69",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "169.239.1.106",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.220.135.35",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.220.133.177",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.201.116",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.78.64.59",
+            "netname": "UD-20100113"
+        },
+        {
+            "ip_address": "102.69.167.7",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.188.156.204",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.61.10.10",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "169.255.187.90",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "41.93.28.21",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.89.235",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.198.179",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.219.204.193",
+            "netname": "NL13-v4"
+        },
+        {
+            "ip_address": "154.72.88.246",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.221.49.128",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "154.0.153.147",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "155.12.30.37",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "155.12.60.57",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.220.136.176",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "155.12.30.48",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "155.12.53.162",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.109.94",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.78.10",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.57.35",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.223.17.61",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.214.47.35",
+            "netname": "AT8"
+        },
+        {
+            "ip_address": "154.72.22.33",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "41.223.228.199",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "154.72.79.26",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.200.229.173",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.118.230.10",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.214.45.152",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.214.44.116",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "154.72.86.211",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.93.28.39",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "155.12.16.6",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.74.147.4",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.59.109.92",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.74.8.98",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.59.100.22",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.66.224.213",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "41.59.197.234",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.73.22",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.188.172.102",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.68.4",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.1.81",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.143.108",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.223.16.98",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.223.236",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "155.12.30.63",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "155.12.30.154",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.219.28.3",
+            "netname": "TNECv4"
+        },
+        {
+            "ip_address": "154.73.170.197",
+            "netname": "AZAM-MEDIA"
+        },
+        {
+            "ip_address": "196.41.76.33",
+            "netname": "TCRA-TZCERT"
+        },
+        {
+            "ip_address": "41.73.203.194",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "102.220.185.182",
+            "netname": "ZAPTECH-net"
+        },
+        {
+            "ip_address": "196.192.78.28",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.1.67",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.118.228.154",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.202.101",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.118.228.89",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.69.164.148",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.69.165.238",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.207.156",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.222.176.242",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.46.101.105",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.226.4",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.207.242.50",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.118.231.180",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.93.112.15",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.192.77.32",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.230.212",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.224.146",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.177.81.113",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.59.227.47",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.112.134",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.227.178",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.44.161.34",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "102.214.45.24",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.219.204.199",
+            "netname": "NL13-v4"
+        },
+        {
+            "ip_address": "41.220.136.137",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.218.75.8",
+            "netname": "GTL4-v4"
+        },
+        {
+            "ip_address": "154.72.20.2",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "41.59.103.127",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.228.25",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.64.3",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.192.77.197",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.199.210",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.214.44.91",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "196.13.133.4",
+            "netname": "TANZANIA-POST-BANK"
+        },
+        {
+            "ip_address": "41.59.227.68",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.77.95",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.93.112.22",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.203.115",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.63.8",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.86.100",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.115.28",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.44.161.203",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "102.223.7.230",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "154.74.8.107",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.192.79.86",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.227.225",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.78.50",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.108.156",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.177.80.193",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.59.228.26",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "217.29.130.151",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.93.72.2",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.217.211.69",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "41.59.217.206",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.135.138",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.219.172.1",
+            "netname": "TOOTv4"
+        },
+        {
+            "ip_address": "154.0.153.136",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.104.35",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.142.221",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.223.228.5",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "196.216.247.117",
+            "netname": "OUT"
+        },
+        {
+            "ip_address": "154.72.93.74",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.188.150.28",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.112.2",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "154.74.135.119",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.220.133.53",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "155.12.50.2",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.214.30.5",
+            "netname": "ISL3-v4"
+        },
+        {
+            "ip_address": "154.118.231.154",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.226.81",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.214.44.130",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.68.71.6",
+            "netname": "National-Identification-Authority"
+        },
+        {
+            "ip_address": "196.192.73.24",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.100.30",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.43.221.27",
+            "netname": "Tanzania-Ports-Authority"
+        },
+        {
+            "ip_address": "154.118.230.203",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.93.112.12",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.41.38.180",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.192.79.175",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.79.150",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.8.36",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.222.95.74",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "102.216.25.86",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "154.72.21.53",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "154.72.82.122",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "154.118.227.222",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.249.91.30",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "41.59.230.14",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.41.36.194",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.196.18",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.62.149",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.93.59.3",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.220.133.51",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.192.77.35",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.90.75",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.90.200",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.165.130",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.209.114",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.32.5",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.192.79.128",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.128.11",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.192.77.126",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.188.138.42",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.28.42",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "154.74.160.43",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.59.192.49",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.61.15.232",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.59.227.88",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.228.45",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.221.49.51",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.93.62.67",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.86.145",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.165.173",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.202.130",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.174.170",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.223.8.16",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.216.162.1",
+            "netname": "tznic"
+        },
+        {
+            "ip_address": "165.16.197.16",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "217.29.133.2",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "196.61.13.18",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.73.202.109",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "196.192.77.90",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.188.150.61",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.217.211.84",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "154.72.89.214",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.61.10.134",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.59.89.234",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.217.211.32",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "154.118.227.21",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.230.3",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.104.217",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.221.53.134",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.44.161.155",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.222.176.215",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.220.134.101",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.89.26",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.214.44.14",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "217.29.129.166",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.59.104.155",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.218.244.12",
+            "netname": "WINCABLE-AND-INTERNET-LIMITED"
+        },
+        {
+            "ip_address": "154.72.73.178",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.177.83.125",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "154.118.225.86",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.75.246",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.61.15.169",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "154.118.230.241",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.45.145.149",
+            "netname": "CATS-NET-IP-2004"
+        },
+        {
+            "ip_address": "154.118.230.206",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.74.164.133",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.59.227.184",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.79.158",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.215.214",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.177.82.13",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.93.82.163",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.214.30.24",
+            "netname": "ISL3-v4"
+        },
+        {
+            "ip_address": "41.220.136.92",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.221.117.117",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "196.61.15.124",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "196.192.77.87",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.194.37",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.221.49.77",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.59.86.146",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.225.246",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.199.124",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.223.16.3",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.218.244.237",
+            "netname": "WINCABLE-AND-INTERNET-LIMITED"
+        },
+        {
+            "ip_address": "102.212.82.33",
+            "netname": "NATIONAL-BANK-OF-COMMERCE-LIMITED"
+        },
+        {
+            "ip_address": "41.93.78.138",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.207.242.22",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.72.77.219",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.223.7.218",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.216.25.41",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "102.223.16.13",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.177.82.54",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.188.149.182",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "217.29.139.223",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.59.24.52",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.177.83.118",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "154.72.21.67",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "41.188.152.118",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.221.50.82",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "154.72.82.99",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.73.197.201",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "154.74.145.11",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "102.223.8.10",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.133.49",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.93.71.66",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.188.137.227",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.32.32",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.200.227.120",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.221.54.110",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.59.203.203",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.112.216",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.129.170",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.192.79.147",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.221.117.79",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "102.214.45.133",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.220.136.177",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.72.21.119",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "41.220.133.42",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.72.95.29",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.61.10.60",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "154.118.230.226",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.177.80.4",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "154.72.20.74",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "41.223.228.30",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "102.218.245.205",
+            "netname": "WINCABLE-AND-INTERNET-LIMITED"
+        },
+        {
+            "ip_address": "41.188.156.252",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.188.150.51",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "217.29.131.203",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.223.228.74",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "102.69.164.16",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "154.74.146.178",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "102.217.211.29",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "192.231.237.29",
+            "netname": "UBX-v4"
+        },
+        {
+            "ip_address": "41.59.230.16",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.57.200",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.46.101.59",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.0.153.17",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.127.20.12",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "41.59.228.167",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.62.66",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.223.19.2",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "196.200.229.165",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.118.230.222",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.200.227.254",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.0.157.156",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.200.229.25",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.221.49.25",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.221.49.171",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "102.223.8.193",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.230.107",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.7.194",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "196.216.218.31",
+            "netname": "NMB-BANK-Public-Limited-Company"
+        },
+        {
+            "ip_address": "154.118.227.18",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "155.12.30.40",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "169.239.0.169",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "154.72.82.3",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.223.7.65",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.220.137.131",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.57.140",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.45.159.210",
+            "netname": "CATS-NET-IP-2004"
+        },
+        {
+            "ip_address": "155.12.72.86",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.227.229",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.73.202.106",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "154.72.65.194",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.211.98",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.254.120",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "217.29.128.70",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.93.63.6",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "169.239.2.117",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.220.133.2",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.207.242.102",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.59.86.195",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.32.41",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.45.155.82",
+            "netname": "CATS-NET-IP-2004"
+        },
+        {
+            "ip_address": "196.44.161.229",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.220.143.119",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.220.131.183",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "155.12.24.10",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.223.10.248",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.136.79",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.192.79.229",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.85.34",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.49.5.98",
+            "netname": "TISPA-AIXP-MNGNT"
+        },
+        {
+            "ip_address": "102.219.205.177",
+            "netname": "NL13-v4"
+        },
+        {
+            "ip_address": "154.72.78.30",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.99.201",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.72.81.90",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.218.145.13",
+            "netname": "ISOT"
+        },
+        {
+            "ip_address": "196.192.79.104",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.8.22",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.49.12.7",
+            "netname": "TISPA-AIXP-MNGNT"
+        },
+        {
+            "ip_address": "196.249.77.17",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "102.223.7.242",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "196.249.77.34",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "154.72.86.215",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.227.82",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.79.167",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.7.50",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.223.7.29",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.221.51.166",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.43.221.13",
+            "netname": "Tanzania-Ports-Authority"
+        },
+        {
+            "ip_address": "154.72.77.100",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.223.7.98",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "154.0.153.120",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.222.89.75",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "41.188.153.13",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.220.135.142",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.215.161",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.132.173",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.228.29",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.61.11.254",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.220.134.204",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "169.255.50.129",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "196.192.79.14",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.188.147.181",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.214.45.37",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.223.17.85",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.93.71.5",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.86.113",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.217.40",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.230.29",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.141.242",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.88.193",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.223.8.34",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.231.207",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.79.210",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.200.227.198",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.118.231.55",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.7.51",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "45.221.192.237",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.41.86.27",
+            "netname": "Softnet-Tech-v4"
+        },
+        {
+            "ip_address": "102.69.166.162",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "154.118.230.252",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.218.145.15",
+            "netname": "ISOT"
+        },
+        {
+            "ip_address": "154.118.226.18",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.93.28.28",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.93.28.32",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.220.138.57",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.222.88.78",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "154.73.170.113",
+            "netname": "AZAM-MEDIA"
+        },
+        {
+            "ip_address": "102.64.67.254",
+            "netname": "Net-Solutions"
+        },
+        {
+            "ip_address": "41.220.138.237",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.218.145.10",
+            "netname": "ISOT"
+        },
+        {
+            "ip_address": "41.207.244.5",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.217.211.33",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "196.192.79.56",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.0.153.232",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.249.91.18",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "154.118.229.11",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.249.84.86",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "196.43.221.34",
+            "netname": "Tanzania-Ports-Authority"
+        },
+        {
+            "ip_address": "41.188.177.164",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.118.227.230",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.207.20",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.223.228.150",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "196.61.10.7",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "102.177.81.85",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.59.210.52",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.200.85",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.198.228",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.118.226.74",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.0.157.23",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.223.10.103",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.216.218.28",
+            "netname": "NMB-BANK-Public-Limited-Company"
+        },
+        {
+            "ip_address": "154.0.153.132",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.223.231.46",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "102.223.0.254",
+            "netname": "TIX-CDN"
+        },
+        {
+            "ip_address": "41.59.199.65",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.132.136",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.44.161.17",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.73.194.134",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "154.72.81.174",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.227.22",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.228.16",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.249.77.20",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "41.220.141.70",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.118.226.178",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.209.93",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "217.29.131.146",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.59.115.2",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.32.57",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.200.225.254",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.59.226.68",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.128.92",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.198.44",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.74.135.57",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "154.118.230.199",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.72.86.74",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "169.255.48.33",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "154.0.153.182",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.78.168.201",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.188.174.86",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.220.134.92",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.214.47.27",
+            "netname": "AT8"
+        },
+        {
+            "ip_address": "196.61.15.198",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.221.51.163",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.73.210.110",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "154.118.224.21",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "197.149.176.221",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "169.239.0.137",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "102.177.80.77",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "196.249.77.42",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "41.221.49.103",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.41.86.22",
+            "netname": "Softnet-Tech-v4"
+        },
+        {
+            "ip_address": "41.93.112.144",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.89.232",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.77.44",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "155.12.49.2",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "155.12.17.225",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.221.50.10",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.73.203.44",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "41.59.227.153",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "217.29.131.92",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.59.227.87",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.129.41",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.64.66.226",
+            "netname": "Net-Solutions"
+        },
+        {
+            "ip_address": "196.192.79.71",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.66.226.56",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "196.200.228.46",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "45.221.192.20",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.86.228",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.78.2",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.135.148",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.72.80.167",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.192.79.30",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.79.163",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.216.218.24",
+            "netname": "NMB-BANK-Public-Limited-Company"
+        },
+        {
+            "ip_address": "41.59.198.197",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.217.211.110",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "196.200.227.154",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.59.225.232",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.216.172.168",
+            "netname": "World-Mobile-Chain-Limited"
+        },
+        {
+            "ip_address": "41.220.128.81",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.204.165",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.45.130.82",
+            "netname": "CATS-NET-IP-2004"
+        },
+        {
+            "ip_address": "154.74.140.85",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "217.29.128.148",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "196.192.79.116",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.177.81.102",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.59.87.190",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.177.81.50",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.188.169.250",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.66.225.101",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "41.223.228.68",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "196.43.221.12",
+            "netname": "Tanzania-Ports-Authority"
+        },
+        {
+            "ip_address": "154.118.229.102",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.66.224.54",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "102.69.166.244",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "196.41.36.6",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.221.58.62",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.59.82.161",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.72.22.73",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "102.69.164.202",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "154.72.74.26",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.41.37.10",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.221.117.121",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "41.221.50.190",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "154.118.229.13",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.57.156",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.44.161.108",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.220.139.20",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.61.15.228",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.93.32.23",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.192.77.101",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.135.133",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.85.192",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.61.8.166",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.59.199.117",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.204.235",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.151.158",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.73.196.238",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "102.223.8.33",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.216.25.4",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "154.118.230.168",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.214.45.169",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "155.12.16.90",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "197.242.193.233",
+            "netname": "BNHComm"
+        },
+        {
+            "ip_address": "154.118.225.218",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.74.160.164",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.46.101.64",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.209.69",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.74.6.12",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.59.40.10",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.73.168.125",
+            "netname": "AZAM-MEDIA"
+        },
+        {
+            "ip_address": "196.192.79.190",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.78.170.12",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.220.128.77",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.200.232.68",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.74.140.186",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.249.82.190",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "102.223.7.48",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.93.31.75",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "155.12.13.98",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.219.205.169",
+            "netname": "NL13-v4"
+        },
+        {
+            "ip_address": "154.127.25.3",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "41.188.137.226",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.177.84.84",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "196.192.77.54",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.17.113",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.188.150.90",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.218.75.7",
+            "netname": "GTL4-v4"
+        },
+        {
+            "ip_address": "102.223.8.140",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.69.165.211",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.227.76",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.156.254",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.82.11",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.103.182",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.150.21",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.249.77.43",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "154.0.154.165",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.216.162.88",
+            "netname": "tznic"
+        },
+        {
+            "ip_address": "41.59.86.97",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.57.194",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.72.95.27",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "154.72.69.90",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.69.164.97",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.218.245.225",
+            "netname": "WINCABLE-AND-INTERNET-LIMITED"
+        },
+        {
+            "ip_address": "41.59.225.33",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.223.237",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.79.241",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.61.8.165",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.221.49.129",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.93.62.134",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.214.45.116",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "196.192.77.103",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.218.75.5",
+            "netname": "GTL4-v4"
+        },
+        {
+            "ip_address": "41.221.49.122",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.192.73.8",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.99.71",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.221.117.130",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "41.59.87.150",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.135.84",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.93.30.161",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.223.11.172",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "169.239.2.1",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.207.240.82",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.68.66.85",
+            "netname": "Exim-Bank-TZ"
+        },
+        {
+            "ip_address": "41.188.149.132",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.41.37.78",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "196.61.10.57",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "102.177.83.45",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "154.74.164.65",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "102.223.16.69",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.217.211.121",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "196.192.79.113",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.72.22.206",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "102.218.144.14",
+            "netname": "ISOT"
+        },
+        {
+            "ip_address": "41.221.62.174",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.93.60.3",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.79.69.14",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.223.7.73",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "154.72.93.65",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.228.200",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.165.221",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.225.89",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.45.153.22",
+            "netname": "CATS-NET-IP-2004"
+        },
+        {
+            "ip_address": "41.59.230.61",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.223.7.95",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.217.211.127",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "155.12.52.102",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.227.242",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.150.92",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.43.78.51",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.62.155",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.44.161.231",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.220.135.180",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.204.177",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.217.211.68",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "102.221.117.78",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "41.221.49.121",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.192.79.103",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.222.176.194",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.222.176.222",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.221.49.41",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.220.141.81",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.118.228.82",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.73.168.64",
+            "netname": "AZAM-MEDIA"
+        },
+        {
+            "ip_address": "196.44.161.133",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "102.223.7.167",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "102.223.0.253",
+            "netname": "TIX-CDN"
+        },
+        {
+            "ip_address": "196.192.75.78",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.230.66",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.78.64.38",
+            "netname": "UD-20100113"
+        },
+        {
+            "ip_address": "155.12.15.114",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.192.79.65",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.66.226.111",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "41.93.32.52",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "154.118.230.230",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.215.251",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.85.75",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.164.18",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "197.149.179.125",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.177.83.250",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.188.139.70",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.221.36.139",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.214.45.158",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "196.216.247.109",
+            "netname": "OUT"
+        },
+        {
+            "ip_address": "41.220.135.137",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "197.149.178.228",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "197.149.176.83",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.226.26",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.230.245",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.78.64.19",
+            "netname": "UD-20100113"
+        },
+        {
+            "ip_address": "196.192.79.162",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.188.151.122",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.223.228.80",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "196.192.75.14",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.188.180.2",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.98.180",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.78.60",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.221.50.158",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "102.210.54.2",
+            "netname": "FASTHUB"
+        },
+        {
+            "ip_address": "217.29.130.146",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.64.66.178",
+            "netname": "Net-Solutions"
+        },
+        {
+            "ip_address": "41.59.89.222",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.179.6",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.220.130.227",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.214.44.85",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "155.12.53.21",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.60.4",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.68.66.42",
+            "netname": "Exim-Bank-TZ"
+        },
+        {
+            "ip_address": "197.242.192.22",
+            "netname": "BNHComm"
+        },
+        {
+            "ip_address": "154.74.133.5",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "102.221.117.120",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "41.93.90.11",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "165.16.192.21",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "41.59.103.94",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.73.194.135",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "41.220.139.124",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.41.86.57",
+            "netname": "Softnet-Tech-v4"
+        },
+        {
+            "ip_address": "41.73.213.60",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "41.188.150.187",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.221.48.231",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.192.79.208",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.86.172.11",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.59.225.242",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.216.25.88",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "41.78.64.6",
+            "netname": "UD-20100113"
+        },
+        {
+            "ip_address": "196.44.161.184",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.74.114.26",
+            "netname": "MILAN-CABLE"
+        },
+        {
+            "ip_address": "41.59.218.18",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "192.231.237.105",
+            "netname": "UBX-v4"
+        },
+        {
+            "ip_address": "41.59.199.254",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.228.88",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.72.67.69",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.223.7.191",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "217.29.128.146",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.188.138.49",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.46.101.39",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.41.86.62",
+            "netname": "Softnet-Tech-v4"
+        },
+        {
+            "ip_address": "154.73.168.165",
+            "netname": "AZAM-MEDIA"
+        },
+        {
+            "ip_address": "41.221.49.74",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "102.214.45.131",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.220.135.147",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.78.168.12",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.73.197.194",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "41.59.88.252",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.63.11",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.192.79.182",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.192.77.18",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.218.244.225",
+            "netname": "WINCABLE-AND-INTERNET-LIMITED"
+        },
+        {
+            "ip_address": "102.69.164.149",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.69.165.103",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.204.151.9",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "169.255.187.66",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "169.239.1.5",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "102.219.83.50",
+            "netname": "COBE-v4"
+        },
+        {
+            "ip_address": "154.0.153.35",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.221.49.17",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.192.77.29",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.74.164.151",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "155.12.30.49",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "192.231.237.88",
+            "netname": "UBX-v4"
+        },
+        {
+            "ip_address": "41.59.228.146",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.204.128.16",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "154.72.65.198",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.93.32.58",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "155.12.30.140",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.196.138",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.216.175.88",
+            "netname": "World-Mobile-Chain-Limited"
+        },
+        {
+            "ip_address": "196.249.89.62",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "41.59.1.126",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.199.88",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.217.211.113",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "154.74.7.94",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "169.239.0.134",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "102.219.172.2",
+            "netname": "TOOTv4"
+        },
+        {
+            "ip_address": "41.59.227.212",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.88.4",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "154.74.3.94",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.93.54.6",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.192.79.172",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.41.76.57",
+            "netname": "TCRA-TZCERT"
+        },
+        {
+            "ip_address": "102.177.83.113",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.59.227.104",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.167.203",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.59.227.230",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.74.3.106",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "197.242.192.7",
+            "netname": "BNHComm"
+        },
+        {
+            "ip_address": "102.64.66.150",
+            "netname": "Net-Solutions"
+        },
+        {
+            "ip_address": "154.66.226.92",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "41.59.57.230",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.74.146.106",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "154.66.226.48",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "154.127.25.155",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "102.216.25.91",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "102.216.25.66",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "102.69.164.102",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "196.192.79.169",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.45.154.90",
+            "netname": "CATS-NET-IP-2004"
+        },
+        {
+            "ip_address": "154.74.8.100",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "192.231.237.122",
+            "netname": "UBX-v4"
+        },
+        {
+            "ip_address": "196.192.75.54",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.69.165.197",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.93.65.98",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.221.117.70",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "41.78.168.239",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.100.96",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.218.244.3",
+            "netname": "WINCABLE-AND-INTERNET-LIMITED"
+        },
+        {
+            "ip_address": "196.216.247.102",
+            "netname": "OUT"
+        },
+        {
+            "ip_address": "192.231.237.83",
+            "netname": "UBX-v4"
+        },
+        {
+            "ip_address": "102.223.11.197",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.230.17",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.141.248",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.220.142.108",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.91.197",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.249.76.198",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "41.220.139.163",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "154.72.95.146",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "197.149.178.94",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.45.154.92",
+            "netname": "CATS-NET-IP-2004"
+        },
+        {
+            "ip_address": "41.93.71.85",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.227.85",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.62.103",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "154.72.93.82",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "155.12.52.243",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "169.255.48.49",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "102.177.84.225",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "102.214.45.106",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.220.129.98",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.188.182.26",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.72.82.4",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "154.74.134.238",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.49.5.50",
+            "netname": "TISPA-AIXP-MNGNT"
+        },
+        {
+            "ip_address": "196.61.15.229",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "41.59.101.212",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.129.4",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.221.49.28",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.188.153.9",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.93.31.66",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.100.99",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.118.231.144",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "196.200.226.26",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.74.148.70",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.78.64.52",
+            "netname": "UD-20100113"
+        },
+        {
+            "ip_address": "196.216.247.104",
+            "netname": "OUT"
+        },
+        {
+            "ip_address": "154.0.153.130",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.223.10.220",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.223.145",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.77.86",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.221.32.201",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.86.114",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.79.177",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.68.67.42",
+            "netname": "Exim-Bank-TZ"
+        },
+        {
+            "ip_address": "196.216.162.68",
+            "netname": "tznic"
+        },
+        {
+            "ip_address": "102.211.68.66",
+            "netname": "BARMEDAS-TANZANIA"
+        },
+        {
+            "ip_address": "41.188.142.25",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.192.78.108",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.193.148",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.200.226.186",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.73.197.204",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "196.192.79.96",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "169.255.51.157",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "196.192.77.43",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.220.133.214",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.217.211.107",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "45.221.192.5",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.219.204.129",
+            "netname": "NL13-v4"
+        },
+        {
+            "ip_address": "155.12.75.142",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.74.134.206",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "41.59.91.172",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.72.66.238",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.220.137.54",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.219.28.4",
+            "netname": "TNECv4"
+        },
+        {
+            "ip_address": "41.221.48.236",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "165.16.192.9",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "41.188.150.18",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "102.69.165.94",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.223.17.105",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "41.93.71.65",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "102.219.28.10",
+            "netname": "TNECv4"
+        },
+        {
+            "ip_address": "102.223.17.25",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "102.214.45.120",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.59.108.230",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "155.12.30.52",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.72.22.81",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "154.72.93.68",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.1.85",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.222.89.26",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "41.59.217.45",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.216.162.80",
+            "netname": "tznic"
+        },
+        {
+            "ip_address": "41.221.49.102",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.93.59.92",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.202.116",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "155.12.15.218",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.118.228.3",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.118.228.242",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.177.83.62",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "41.59.100.42",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.86.10",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.77.28",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.225.118",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.79.16",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.221.49.33",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.221.34.194",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.72.75.202",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "102.214.45.67",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "196.44.161.22",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.221.49.45",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.59.200.58",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.72.93.90",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.59.197.196",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.69.164.15",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "154.74.148.42",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "155.12.22.27",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.74.112.231",
+            "netname": "MILAN-CABLE"
+        },
+        {
+            "ip_address": "41.223.228.205",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "217.29.134.54",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.93.90.6",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "41.59.97.57",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.192.77.97",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "169.255.114.166",
+            "netname": "Capital-Technologies"
+        },
+        {
+            "ip_address": "41.59.112.192",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "154.118.229.146",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.188.139.62",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.203.231",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "155.12.60.38",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.74.3.81",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "154.118.231.60",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "154.74.164.61",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.192.73.131",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.228.204",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.223.17.1",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "155.12.16.85",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.220.132.140",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.249.76.62",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "154.127.25.41",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "41.59.227.72",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.61.10.136",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "102.217.211.92",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "154.66.227.42",
+            "netname": "ZNZCONNECT-COMNET-TZ"
+        },
+        {
+            "ip_address": "41.188.136.115",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.188.136.74",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.230.50",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.188.149.75",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.44.161.251",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "196.44.161.80",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.73.194.139",
+            "netname": "MIC-TANZANIA-LTD"
+        },
+        {
+            "ip_address": "41.188.181.198",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.220.138.214",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "102.221.117.164",
+            "netname": "Azampay-Tanzania"
+        },
+        {
+            "ip_address": "155.12.53.11",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.74.133.3",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "196.192.77.22",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "155.12.30.81",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.192.77.11",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.177.80.58",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "217.29.133.9",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.72.94.190",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "41.221.49.31",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "154.74.140.81",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "154.72.73.210",
+            "netname": "RAHA"
+        },
+        {
+            "ip_address": "154.72.22.226",
+            "netname": "ctv-IPv4"
+        },
+        {
+            "ip_address": "41.221.49.186",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "102.223.7.12",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.220.143.81",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.44.161.77",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "196.249.69.98",
+            "netname": "VIETTEL-TANZANIA"
+        },
+        {
+            "ip_address": "102.177.84.83",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "196.61.10.78",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "102.214.45.154",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.220.133.44",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.192.73.3",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "155.12.30.77",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "192.231.237.16",
+            "netname": "UBX-v4"
+        },
+        {
+            "ip_address": "41.188.153.93",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "154.74.164.42",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "169.239.1.54",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "45.221.192.10",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "41.59.227.108",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "196.44.161.220",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "41.59.87.130",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.224.41",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.221.52.186",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "196.192.78.138",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.225.108",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.221.49.36",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "41.59.198.78",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.93.28.22",
+            "netname": "TERNET-20100302"
+        },
+        {
+            "ip_address": "196.192.79.100",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.59.225.117",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.209.64",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "102.177.83.115",
+            "netname": "SIMPLYCONNECT-SUBNETS"
+        },
+        {
+            "ip_address": "196.44.161.105",
+            "netname": "UDARESSALAAM"
+        },
+        {
+            "ip_address": "217.29.130.150",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "154.118.230.113",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.7.183",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.59.90.210",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.220.133.170",
+            "netname": "Habari-Mwanza"
+        },
+        {
+            "ip_address": "196.192.77.111",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.222.89.122",
+            "netname": "BELL-FIBER"
+        },
+        {
+            "ip_address": "154.74.7.81",
+            "netname": "TIGO-TZ"
+        },
+        {
+            "ip_address": "154.73.170.120",
+            "netname": "AZAM-MEDIA"
+        },
+        {
+            "ip_address": "102.223.8.180",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "41.78.64.48",
+            "netname": "UD-20100113"
+        },
+        {
+            "ip_address": "169.255.51.9",
+            "netname": "Computer-Sales-Services"
+        },
+        {
+            "ip_address": "196.61.10.210",
+            "netname": "Blink_Arusha"
+        },
+        {
+            "ip_address": "102.216.25.110",
+            "netname": "CRDB-BANK-PLC"
+        },
+        {
+            "ip_address": "41.207.240.126",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.221.49.37",
+            "netname": "WIATZ"
+        },
+        {
+            "ip_address": "155.12.30.61",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "155.12.50.174",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "196.43.78.59",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.223.228.75",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "217.29.132.9",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "41.188.149.134",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.79.69.78",
+            "netname": "APTUS-IPV4"
+        },
+        {
+            "ip_address": "102.69.164.81",
+            "netname": "Flashnet-Technologies-Limited"
+        },
+        {
+            "ip_address": "155.12.15.219",
+            "netname": "SIMBANET-20150420"
+        },
+        {
+            "ip_address": "41.59.99.24",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.223.230.89",
+            "netname": "SATCOM-TZ"
+        },
+        {
+            "ip_address": "196.192.79.160",
+            "netname": "EGOV"
+        },
+        {
+            "ip_address": "102.223.7.118",
+            "netname": "ZICT1-v4"
+        },
+        {
+            "ip_address": "41.59.82.173",
+            "netname": "TTCL1-20051207"
+        },
+        {
+            "ip_address": "41.59.109.110",
+            "netname": "TTCL1-20051207"
+        }
+    ]
+}

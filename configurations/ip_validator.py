@@ -8,7 +8,6 @@ from utils.checkpoint import save_ip_validator_checkpoint
 
 
 def start_resume_ip_validator(ip_addresses, num_of_threads, country_name):
-    chunk_size = num_of_threads
     """
     Makes use of a checkpoint system to keep tracks of already processed data
     in case of an issue such as a power-cut. 
@@ -24,11 +23,11 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, country_name):
 
         country_name: String
     """
-
+    chunk_size = num_of_threads
 
     checkpoint = f"checkpoints/{country_name}/ip_validator_results.json"
     if not os.path.exists(checkpoint):
-        valid_ip_addresses = process(ip_addresses, num_of_threads, chunk_size, checkpoint)
+        valid_ip_addresses = process(ip_addresses, num_of_threads, chunk_size, checkpoint, country_name=country_name)
     else:
         with open(checkpoint, 'r') as f:
             cp = json.load(f)
@@ -37,7 +36,7 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, country_name):
             _remaining_ip_addresses = list(set((ip['ip_address'], ip['netname']) for ip in ip_addresses) - set((ip['ip_address'], ip['netname']) for ip in cp_valid_ip_addresses) - set((ip['ip_address'], ip['netname']) for ip in cp_invalid_ip_addresses))
             remaining_ip_addresses = [{'ip_address': ip[0], 'netname': ip[1]} for ip in _remaining_ip_addresses]
             _remaining_ip_addresses = None
-            valid_ip_addresses = process(remaining_ip_addresses, num_of_threads, chunk_size, checkpoint, cp_valid_ip_addresses, cp_invalid_ip_addresses)
+            valid_ip_addresses = process(remaining_ip_addresses, num_of_threads, chunk_size, checkpoint, cp_valid_ip_addresses, cp_invalid_ip_addresses, country_name=country_name)
             cp = None
             cp_valid_ip_addresses = None
             cp_invalid_ip_addresses = None
@@ -45,7 +44,7 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, country_name):
     save_ip_validator_results(len(ip_addresses), valid_ip_addresses, f"results/{country_name}/ip_validator_results.json")
     return valid_ip_addresses
 
-def process(ip_addresses, num_of_threads, chunk_size, checkpoint, valid_ip_addresses=[], invalid_ip_addresses=[]):
+def process(ip_addresses, num_of_threads, chunk_size, checkpoint, valid_ip_addresses=[], invalid_ip_addresses=[], country_name = None):
     number_of_ip_addresses = len(ip_addresses)
     progress_lock = threading.Lock()
     valid_ip_addresses_lock = threading.Lock()
@@ -55,22 +54,21 @@ def process(ip_addresses, num_of_threads, chunk_size, checkpoint, valid_ip_addre
 
     for i in range(0, number_of_ip_addresses, chunk_size):
         with concurrent.futures.ThreadPoolExecutor(max_workers=num_of_threads) as executor:
-            futures = {executor.submit(validate_ip_address, ip['ip_address'], progress_denominator, progress_lock, progress): ip for ip in ip_addresses[i:i+chunk_size]}
+            futures = {executor.submit(validate_ip_address, ip['ip_address'], progress_denominator, progress_lock, progress, country_name=country_name): ip for ip in ip_addresses[i:i+chunk_size]}
             
             for future in concurrent.futures.as_completed(futures):
                 ip = futures[future]
                 try:
                     if future.result():
-                        print(f"{ip} is valid\n")
+                        # print(f"{ip} is valid\n")
                         with valid_ip_addresses_lock:
                             valid_ip_addresses.append(ip)
                     else:
-                        print(f"{ip} is invalid\n")
+                        # print(f"{ip} is invalid\n")
                         with invalid_ip_addresses_lock:
                             invalid_ip_addresses.append(ip)
                 except Exception as e:
-                    os.system('clear')
-                    print(f"{ip} is invalid: {e}\n")
+                    # print(f"{ip} is invalid: {e}\n")
                     with invalid_ip_addresses_lock:
                         invalid_ip_addresses.append(ip)
         
@@ -78,7 +76,7 @@ def process(ip_addresses, num_of_threads, chunk_size, checkpoint, valid_ip_addre
 
     return valid_ip_addresses
 
-def validate_ip_address(ip, number_of_ip_addresses, progress_lock, progress):
+def validate_ip_address(ip, number_of_ip_addresses, progress_lock, progress, country_name=None):
     nmap = nmap3.Nmap()
     try:
         result_dict = nmap.scan_top_ports(ip, args="-p 443 -Pn")
@@ -92,7 +90,8 @@ def validate_ip_address(ip, number_of_ip_addresses, progress_lock, progress):
         valid = False
 
     with progress_lock:
+        os.system('clear')
         progress[0] += 1
-        print(f"{progress[0] / number_of_ip_addresses * 100:.2f}% complete")
+        print(f"Checkpoint at Checkpoints/{country_name}/ip_validator_results.json\nTotal IP address: \t{number_of_ip_addresses}\nIP Addresses Scanned: \t{progress[0]}\nCompleted: \t\t{progress[0] / number_of_ip_addresses * 100:.2f} %")
 
     return valid
