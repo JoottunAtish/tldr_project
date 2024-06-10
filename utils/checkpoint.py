@@ -18,6 +18,9 @@ def save_ip_validator_checkpoint(valid_ip_addresses, invalid_ip_addresses, outpu
     if not os.path.exists(os.path.dirname(output_file)):
         os.makedirs(os.path.dirname(output_file))
     result = {
+        "num_of_ip_addresses": len(valid_ip_addresses) + len(invalid_ip_addresses),
+        "num_of_valid_ip_addresses": len(valid_ip_addresses),
+        "num_of_invalid_ip_addresses": len(invalid_ip_addresses),
         "valid_ip_addresses": valid_ip_addresses,
         "invalid_ip_addresses": invalid_ip_addresses
     }
