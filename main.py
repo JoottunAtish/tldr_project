@@ -4,27 +4,10 @@ from configurations.ip_collector import start_resume_retrieve_asn_details, ip_pr
 asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
-    "Mauritius",
-    "Cameroon",
-    "Comoros",
-    "Malawi",
-    "Côte d'Ivoire",
-    "Zambia",
-    "Botswana",
-    "Sudan",
-    "Ethiopia",
-    "Gambia",
-    "Burkina Faso",
-    "Namibia",
-    "Réunion",
-    "South Sudan",
-    "Congo, The Democratic Republic of the",
-    "Uganda",
-    "Madagascar",
-    "Sierra Leone",
-    "Libya",
-    "Benin"
-]
+    "Kenya",
+    "Seychelles",
+    "Zimbabwe",
+    "Rwanda"]
 
 for country, asn_details in asn_details_grouped_by_country.items():
     if country in list_of_country:
