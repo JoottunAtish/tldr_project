@@ -92,6 +92,16 @@ def validate_ip_address(ip, number_of_ip_addresses, progress_lock, progress, cou
     with progress_lock:
         os.system('clear')
         progress[0] += 1
-        print(f"Checkpoint at Checkpoints/{country_name}/ip_validator_results.json\nTotal IP address: \t{number_of_ip_addresses}\nIP Addresses Scanned: \t{progress[0]}\nCompleted: \t\t{progress[0] / number_of_ip_addresses * 100:.2f} %")
-
+        print(f"Checkpoint at Checkpoints/{country_name}/ip_validator_results.json\nTotal IP address: \t{number_of_ip_addresses}\nIP Addresses Scanned: \t{progress[0]}\n{progress_bar(progress[0], number_of_ip_addresses, 100)}")
+        
     return valid
+
+
+
+def progress_bar(current, total, bar_length=100):
+    fraction = current / total
+
+    arrow = int(fraction * bar_length - 1) * '#'
+    padding = int(bar_length - len(arrow)) * ' '
+
+    return (f'Progress: [{arrow}{padding}] {fraction * 100:.2f}% {'\n' if current == total else '\r'}')
