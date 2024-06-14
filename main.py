@@ -7,8 +7,7 @@ list_of_country = [
   
     "Tunisia",
     "Cabo Verde",
-    "Gabon",
-    "Mayotte",
+    "Gabon",    
     "Sao Tome and Principe",    
     "Togo"    
 ]
