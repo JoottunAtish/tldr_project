@@ -11,3 +11,16 @@ def tls_version_check(ip_address, port):
         sock.settimeout(30)
         with context.wrap_socket(sock, server_hostname=ip_address) as ssock:
             return ssock.version()
+        
+
+"""
+json file:
+
+
+tls_1-3:
+[
+ip:
+netname:
+cipher_suites:[]
+]
+"""

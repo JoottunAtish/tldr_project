@@ -8,6 +8,8 @@ from utils.checkpoint import save_ip_validator_checkpoint
 from utils.fix_bleeding import fix_bleeding
 
 
+CheckPoint_count = 1
+
 def start_resume_ip_validator(ip_addresses, num_of_threads, country_name, asn_details):
     chunk_size = num_of_threads
     """
@@ -27,7 +29,7 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, country_name, asn_de
     """
     chunk_size = num_of_threads
 
-    checkpoint = f"checkpoints/{country_name}/ip_validator_results.json"
+    checkpoint = f"checkpoints/{country_name}/ip_validator_results_{CheckPoint_count}.json"
     if not os.path.exists(checkpoint):
         process(ip_addresses, num_of_threads, chunk_size, checkpoint, country_name=country_name)
     else:
