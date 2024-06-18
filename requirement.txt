@@ -1,4 +1,4 @@
 python3-nmap >= 1.6.0
-pyOpenSSL >= 23.2.0
 pycountry >= 24.6.1
 pandas >= 2.1.1
+orjson >= 3.10.5
