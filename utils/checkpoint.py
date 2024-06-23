@@ -1,4 +1,4 @@
-import json
+import orjson as ojs
 import os
 
 def save_afrinic_asn_checkpoint(processed_asn, processed_list, output_file):
@@ -10,7 +10,7 @@ def save_afrinic_asn_checkpoint(processed_asn, processed_list, output_file):
     }
 
     with open(output_file, 'w') as f:
-        json.dump(result, f)
+        ojs.dumps(result, f)
     
     print(f"Checkpoint saved to {output_file}")
 
@@ -26,6 +26,6 @@ def save_ip_validator_checkpoint(valid_ip_addresses, invalid_ip_addresses, outpu
     }
 
     with open(output_file, 'w') as f:
-        json.dump(result, f)
+        ojs.dumps(result, f)
     
     print(f"Checkpoint saved to {output_file}")
