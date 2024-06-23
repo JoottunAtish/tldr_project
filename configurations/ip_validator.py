@@ -85,6 +85,8 @@ def process(ip_addresses, num_of_threads, chunk_size, checkpoint, valid_ip_addre
 
 def validate_ip_address(ip, number_of_ip_addresses, progress_lock, progress, country_name=None):
     nmap = nmap3.Nmap()
+    
+
     try:
         result_dict = nmap.scan_top_ports(ip, args="-p 443 -Pn")
 
@@ -93,6 +95,10 @@ def validate_ip_address(ip, number_of_ip_addresses, progress_lock, progress, cou
         isStateUp = result_dict[ip]["state"]["state"] == "up"
 
         valid = isPortID443 and isStateOpen and isStateUp
+        with open ('ValidIPs.json','w') as ValidFile:
+            json.dump(ip,ValidFile)
+           
+    
     except Exception as e:
         valid = False
 
