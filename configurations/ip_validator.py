@@ -2,7 +2,7 @@ import nmap3
 import concurrent.futures
 import threading
 import os
-import orjson as ojs
+import json
 from utils.result import save_ip_validator_results
 from utils.checkpoint import save_ip_validator_checkpoint
 from utils.fix_bleeding import fix_bleeding
@@ -32,7 +32,7 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, country_name, asn_de
         process(ip_addresses, num_of_threads, chunk_size, checkpoint)
     else:
         with open(checkpoint, 'rb') as f:
-            cp = ojs.loads(f)
+            cp = json.loads(f)
             cp_valid_ip_addresses = cp["valid_ip_addresses"]
             cp_invalid_ip_addresses = cp["invalid_ip_addresses"]
            
