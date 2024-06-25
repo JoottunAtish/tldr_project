@@ -1,13 +1,12 @@
 from configurations.ip_validator import start_resume_ip_validator
 from configurations.ip_collector import start_resume_retrieve_asn_details, ip_prefix_to_list
 from configurations.tls_filterer import start_resume_tls_filterer
-import json
 
 
 asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
-    
+    "Rwanda",
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():

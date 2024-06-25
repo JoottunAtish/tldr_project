@@ -83,6 +83,8 @@ def tls_version_check(ip_address, number_of_ip_addresses, port, progress_lock, p
                 os.system("clear")
                 progress[0] += 1
                 print(f"Checkpoint at Checkpoints/{country_name}/tls_filterer_results.json\nTotal IP address: \t{number_of_ip_addresses}\nIP Addresses Scanned: \t{progress[0]}\n{progress_bar(progress[0], number_of_ip_addresses, 100)}")
+            
+            # The return value is a string with 'TLSv1.3' depending on the tls version.
             return ssock.version()
         
 def progress_bar(current, total, bar_length=100):

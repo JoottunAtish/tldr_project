@@ -102,3 +102,31 @@ def group_by_country(asn_details):
 
 def ip_prefix_to_list(ip_prefix, netname):
     return [{"ip_address": str(ip), "netname": netname} for ip in ipaddress.ip_network(ip_prefix)]
+
+
+
+def get_ip_addresses(asn_details):
+    inetnums_with_netname = []
+    
+    for asn_detail in asn_details:
+        ip_prefixes = asn_detail["inetnums"]
+        netname = asn_detail["netname"]
+        for ip_prefix in ip_prefixes:
+            ip_network = ipaddress.ip_network(ip_prefix)
+            inetnum = [inetnum for inetnum in inetnums_with_netname if ipaddress.ip_network(inetnum[0]).network_address == ip_network.network_address]
+
+            if not inetnum:
+                inetnums_with_netname.append((ip_prefix, netname))
+            elif ipaddress.ip_network(ip_prefix).prefixlen < ipaddress.ip_network(inetnum[0][0]).prefixlen:
+                inetnums_with_netname.remove(inetnum[0])
+                inetnums_with_netname.append((ip_prefix, netname))
+    with open('inetnums_with_netname.json', 'w') as f:
+        json.dump(inetnums_with_netname, f)
+    ip_addresses = []
+    for inetnum_with_netname in inetnums_with_netname:
+        ip_addresses.extend(ip_prefix_to_list(inetnum_with_netname[0], inetnum_with_netname[1]))
+        
+    
+    # return list({'ip_address': _ip[0], 'netname': _ip[1]} for _ip in set((ip['ip_address'], ip['netname']) for ip in ip_addresses))
+
+    return list({'ip_address': _ip[0], 'netname': _ip[1]} for _ip in set((ip['ip_address'], ip['netname']) for ip in (ip_addresses)))
