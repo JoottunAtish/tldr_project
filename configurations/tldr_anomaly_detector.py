@@ -4,7 +4,7 @@ from utils.checkpoint import save_tldr_checkpoint
 from utils.result import save_tldr_results
 
 
-def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, Processed_ip_addresses = []):
+def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, version,  Processed_ip_addresses = []):
     """
     This function make use of parallel computing to speed up the process which calls 
     the tldr_detector function.
@@ -22,7 +22,7 @@ def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, Processe
             By default, the list is empty.
     """
     number_of_ip_addresses = len(ip_addresses)
-    checkpoint = f"checkpoints/{countryname}/tldr_process_results.json"
+    checkpoint = f"checkpoints/{countryname}/tldr_process_{version}_results.json"
     
     for i in range(0, number_of_ip_addresses, chunk_size):
         with concurrent.futures.ThreadPoolExecutor(num_of_threads) as executor:
@@ -36,6 +36,9 @@ def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, Processe
                 except Exception as e:
                     print(e)
                     Processed_ip_addresses.append(future.result())
+                
+                os.system('clear')
+                print(f"Checkpoint at Checkpoints/{countryname}/tldr_process_{version}_results.json\nTotal IP address: \t{number_of_ip_addresses}\nIP Addresses Scanned: \t{len(Processed_ip_addresses)}\n{progress_bar(len(Processed_ip_addresses), number_of_ip_addresses, 100)}")
         
         # list_ip = [list(ip.values())[0] for ip in Processed_ip_addresses]
         # list_encoding = [list(binary.keys())[0] for binary in Processed_ip_addresses]
@@ -43,14 +46,14 @@ def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, Processe
         save_tldr_checkpoint(Processed_ip_addresses, checkpoint)
     save_tldr_checkpoint(Processed_ip_addresses, checkpoint)
 
-    save_tldr_results(len(Processed_ip_addresses), Processed_ip_addresses, f"results/{countryname}/tldr_process_results.json")
+    save_tldr_results(len(Processed_ip_addresses), Processed_ip_addresses, f"results/{countryname}/tldr_process_{version}_results.json")
     
 
 def resume_tldr_process(ip_address, num_of_threads, chunk_size, countryname, asndetails, version):
     checkpoint = f"checkpoints/{countryname}/tldr_process_{version}_results.json"
     
     if not os.path.exists(checkpoint):
-        tldr_process(ip_address, num_of_threads,chunk_size=chunk_size, countryname=countryname)
+        tldr_process(ip_address, num_of_threads,version=version, chunk_size=chunk_size, countryname=countryname)
     else:
         with open(checkpoint, "rb") as f:
             cp= json.load(f)
@@ -58,10 +61,18 @@ def resume_tldr_process(ip_address, num_of_threads, chunk_size, countryname, asn
             
             _remaining_ip = list(set((ip) for ip in ip_address) - (set(list(ip.values())[0] for ip in cp_ip_addresses)))
                         
-            tldr_process(_remaining_ip, num_of_threads, chunk_size, countryname, cp_ip_addresses)
+            tldr_process(_remaining_ip, num_of_threads, chunk_size, countryname,version, cp_ip_addresses)
             _remaining_ip = None
 
 
+
+def progress_bar(current, total, bar_length=100):
+    fraction = current / total
+
+    arrow = int(fraction * bar_length - 1) * '#'
+    padding = int(bar_length - len(arrow)) * ' '
+
+    return (f'Progress: [{arrow}{padding}] {fraction * 100:.2f}% ') + ('\n' if current == total else '\r')
 
 
 # # Given test data

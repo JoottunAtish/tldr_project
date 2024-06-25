@@ -10,7 +10,7 @@ import json
 asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
-    "Angola",
+    # "Angola",
     "Benin",
     "Burundi",
     "Central African Republic"
@@ -29,15 +29,18 @@ for country, asn_details in asn_details_grouped_by_country.items():
             
         print(f"Processing {country}, {len(ip_addresses)} IP Addresses")
 
-        valid_ip_addresses = start_resume_ip_validator(ip_addresses, num_of_threads=512, country_name=country, asn_details=asn_details)
+        valid_ip_addresses = start_resume_ip_validator(ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
         
-        tlsv1_3, tlsv1_2, tlsvOld = start_resume_tls_filterer(valid_ip_addresses, num_of_threads=512, country_name=country, asn_details=asn_details)
+        tlsv1_3, tlsv1_2, tlsvOld = start_resume_tls_filterer(valid_ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
         
+        ip_address_1_3 = [ip['ip_address'] for ip in tlsv1_3]
+        ip_address_1_2 = [ip['ip_address'] for ip in tlsv1_2]
+
         # scanning for TLS1.3
-        resume_tldr_process(ip_address=tlsv1_3, num_of_threads=2048, chunk_size=40, countryname=country, asndetails=None, version="v1.3")
+        resume_tldr_process(ip_address=ip_address_1_3, num_of_threads=2048, chunk_size=40, countryname=country, asndetails=None, version="v1.3")
         
-        # scanning for TLS1.2
-        resume_tldr_process(ip_address=tlsv1_2, num_of_threads=2048, chunk_size=40, countryname=country, asndetails=None, version="v1.2")
+        # # scanning for TLS1.2
+        resume_tldr_process(ip_address=ip_address_1_2, num_of_threads=2048, chunk_size=40, countryname=country, asndetails=None, version="v1.2")
         
 
 

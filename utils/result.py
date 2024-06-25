@@ -49,14 +49,13 @@ def save_tls_filterer_results(num_of_ip_addresses, tls_1_3, tls_1_2, old_tls, ou
     print(f"Results saved to {output_file}.")
     
 
-def save_tldr_results(num_of_ip_addresses, list_ip, list_encoding, output_file):
+def save_tldr_results(num_of_ip_addresses, list_ip, output_file):
     if not os.path.exists(os.path.dirname(output_file)):
         os.makedirs(os.path.dirname(output_file))
     
     results = {
         "total_ip_checked": num_of_ip_addresses,
-        "ip_addresses": list_ip,
-        "binary_encoding": list_encoding
+        "encoded_ip_addresses": list_ip,
     }
     
     with open(output_file, 'w') as f:
