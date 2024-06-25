@@ -62,3 +62,21 @@ def fix_bleeding_tls_filterer(country, asn_details):
     save_tls_filterer_checkpoint(tls_1_3, tls_1_2, old_tls, checkpoint)
 
     return tls_1_3, tls_1_2, old_tls
+
+
+def fix_bleeding_tldr_anomaly(country, asn_details):
+    checkpoint = f"checkpoints/{country}/tldr_process_results.json"
+    
+    for asn_detail in asn_details:
+        ip_prefixes = asn_detail["inetnums"]
+        netname = asn_detail["netname"]
+        for ip_prefix in ip_prefixes:
+            ip_addresses.extend(ip_prefix_to_list(ip_prefix, netname))
+    ip_addresses = set((ip['ip_address'], ip['netname']) for ip in ip_addresses)
+    
+    if not os.path.exists(checkpoint):
+        return
+
+    with open(checkpoint, 'r') as f:
+        data = json.load(f)
+        

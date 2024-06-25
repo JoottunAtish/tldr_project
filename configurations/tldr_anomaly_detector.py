@@ -46,8 +46,8 @@ def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, Processe
     save_tldr_results(len(Processed_ip_addresses), Processed_ip_addresses, f"results/{countryname}/tldr_process_results.json")
     
 
-def resume_tldr_process(ip_address, num_of_threads, chunk_size, countryname):
-    checkpoint = f"checkpoints/{countryname}/tldr_process_results.json"
+def resume_tldr_process(ip_address, num_of_threads, chunk_size, countryname, asndetails, version):
+    checkpoint = f"checkpoints/{countryname}/tldr_process_{version}_results.json"
     
     if not os.path.exists(checkpoint):
         tldr_process(ip_address, num_of_threads,chunk_size=chunk_size, countryname=countryname)
