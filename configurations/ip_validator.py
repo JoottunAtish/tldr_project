@@ -3,9 +3,10 @@ import concurrent.futures
 import threading
 import os
 import json
+import json
 from utils.result import save_ip_validator_results
 from utils.checkpoint import save_ip_validator_checkpoint
-from utils.fix_bleeding import fix_bleeding
+from utils.fix_bleeding import fix_bleeding_ip_validator
 
 
 def start_resume_ip_validator(ip_addresses, num_of_threads, country_name, asn_details):
@@ -31,8 +32,8 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, country_name, asn_de
     if not os.path.exists(checkpoint):
         process(ip_addresses, num_of_threads, chunk_size, checkpoint)
     else:
-        with open(checkpoint, 'rb') as f:
-            cp = json.loads(f)
+        with open(checkpoint, 'r') as f:
+            cp = json.load(f)
             cp_valid_ip_addresses = cp["valid_ip_addresses"]
             cp_invalid_ip_addresses = cp["invalid_ip_addresses"]
            
@@ -48,7 +49,7 @@ def start_resume_ip_validator(ip_addresses, num_of_threads, country_name, asn_de
             cp_invalid_ip_addresses = None
             remaining_ip_addresses = None
             
-    valid_ip_addresses = fix_bleeding(country_name, asn_details)
+    valid_ip_addresses = fix_bleeding_ip_validator(country_name, asn_details)
     save_ip_validator_results(len(ip_addresses), valid_ip_addresses, f"results/{country_name}/ip_validator_results.json")
     return valid_ip_addresses
 
@@ -95,10 +96,7 @@ def validate_ip_address(ip, number_of_ip_addresses, progress_lock, progress, cou
         isStateUp = result_dict[ip]["state"]["state"] == "up"
 
         valid = isPortID443 and isStateOpen and isStateUp
-        with open ('ValidIPs.json','w') as ValidFile:
-            json.dump(ip,ValidFile)
            
-    
     except Exception as e:
         valid = False
 
@@ -114,4 +112,4 @@ def progress_bar(current, total, bar_length=100):
     arrow = int(fraction * bar_length - 1) * '#'
     padding = int(bar_length - len(arrow)) * ' '
 
-    return (f'Progress: [{arrow}{padding}] {fraction * 100:.2f}% {'\n' if current == total else '\r'}')
+    return (f'Progress: [{arrow}{padding}] {fraction * 100:.2f}% ') + ('\n' if current == total else '\r')
