@@ -37,13 +37,13 @@ def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, Processe
                     print(e)
                     Processed_ip_addresses.append(future.result())
         
-        list_ip = [list(ip.values())[0] for ip in Processed_ip_addresses]
-        list_encoding = [list(binary.keys())[0] for binary in Processed_ip_addresses]
-        
-        save_tldr_checkpoint(list_ip, list_encoding, checkpoint)
-    save_tldr_checkpoint(list_ip, list_encoding, checkpoint)
+        # list_ip = [list(ip.values())[0] for ip in Processed_ip_addresses]
+        # list_encoding = [list(binary.keys())[0] for binary in Processed_ip_addresses]
+             
+        save_tldr_checkpoint(Processed_ip_addresses, checkpoint)
+    save_tldr_checkpoint(Processed_ip_addresses, checkpoint)
 
-    save_tldr_results(len(list_ip), list_ip, list_encoding, f"results/{countryname}/tldr_process_results.json")
+    save_tldr_results(len(Processed_ip_addresses), Processed_ip_addresses, f"results/{countryname}/tldr_process_results.json")
     
 
 def resume_tldr_process(ip_address, num_of_threads, chunk_size, countryname):
@@ -54,9 +54,10 @@ def resume_tldr_process(ip_address, num_of_threads, chunk_size, countryname):
     else:
         with open(checkpoint, "rb") as f:
             cp= json.load(f)
-            cp_ip_addresses = cp["ip_addresses"]
-            _remaining_ip = list(set((ip) for ip in ip_address) - (set((ip) for ip in cp_ip_addresses)))
+            cp_ip_addresses = cp["ip_addresses_encoding"]
             
+            _remaining_ip = list(set((ip) for ip in ip_address) - (set(list(ip.values())[0] for ip in cp_ip_addresses)))
+                        
             tldr_process(_remaining_ip, num_of_threads, chunk_size, countryname, cp_ip_addresses)
             _remaining_ip = None
 

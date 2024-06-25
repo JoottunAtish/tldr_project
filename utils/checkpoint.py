@@ -45,13 +45,12 @@ def save_tls_filterer_checkpoint(tls_1_3, tls_1_2, old_tls, output_file):
     print(f"Checkpoint saved to {output_file}")
 
 
-def save_tldr_checkpoint(processed_ip, encoding, output_file):
+def save_tldr_checkpoint(processed_ip, output_file):
     if not os.path.exists(os.path.dirname(output_file)):
         os.makedirs(os.path.dirname(output_file))
     results= {
         "num_of_ip_addresses":len(processed_ip), 
-        "ip_addresses": processed_ip,
-        "encoding": encoding
+        "ip_addresses_encoding": processed_ip,
     }
     
     with open(output_file, 'w') as f:
