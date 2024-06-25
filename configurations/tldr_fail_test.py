@@ -136,7 +136,7 @@ def check_byte(data:bytes):
         return True
 
 
-def tldr_dectector(host, addr = None, port = 443):
+def     tldr_dectector(host, addr = None, port = 443, timeout = 30) -> dict:
     """
     Too Long; Did Not Read (TLDR) Detector. A script made by David Benjamin to test such bug.
 
@@ -149,8 +149,9 @@ def tldr_dectector(host, addr = None, port = 443):
         host: URL (string)
         addr: IP address (string)
         port: Port Number (integer)
+        timeout = close connection after how many seconds if the server did not respond. (integer)
 
-        By default, the port will be 443.
+        By default, the port will be 443 and the timeout will be 30 seconds.
     
     #### :Returns
         The 4-bit binary encoding and Ip-address in a dictionary.
@@ -174,9 +175,9 @@ def tldr_dectector(host, addr = None, port = 443):
     # print("connection or sends something else, the server is misbehaving.")
     # print()
 
-    print("Sending the large ClientHello in a single write:")
+    # print("Sending the large ClientHello in a single write:\n\n")
     try:
-        sock = socket.create_connection(addr)
+        sock = socket.create_connection(addr, timeout=timeout)
         sock.send(client_hello)
 
         # print(sock.recv(256))
@@ -189,11 +190,10 @@ def tldr_dectector(host, addr = None, port = 443):
     except Exception as e:
         print(e)
         BinaryEncoding += "0"
-    print()
 
-    print("Sending the large ClientHello in two separate writes:")
+    # print("Sending the large ClientHello in two separate writes:\n\n")
     try:
-        sock = socket.create_connection(addr)
+        sock = socket.create_connection(addr,timeout=timeout)
         half = len(client_hello)//2
         sock.send(client_hello[:half])
         time.sleep(1)
@@ -208,7 +208,6 @@ def tldr_dectector(host, addr = None, port = 443):
     except Exception as e:
         print(e)
         BinaryEncoding += "0"
-    print()
 
     client_hello = make_client_hello(host, kyber=False)
 
@@ -220,10 +219,10 @@ def tldr_dectector(host, addr = None, port = 443):
     # print("today. This script does not reproduce some padding behavior.)")
     # print()
 
-    print("Sending the smaller ClientHello in a single write:")
+    # print("Sending the smaller ClientHello in a single write:\n\n")
 
     try:
-        sock = socket.create_connection(addr)
+        sock = socket.create_connection(addr,timeout=timeout)
         sock.send(client_hello)
         
         # print(sock.recv(256))
@@ -236,12 +235,12 @@ def tldr_dectector(host, addr = None, port = 443):
     except Exception as e:
         print(e)
         BinaryEncoding += "0"
-    print()
 
-    print("Sending the smaller ClientHello in two separate writes:")
+
+    # print("Sending the smaller ClientHello in two separate writes:\n\n")
     
     try:
-        sock = socket.create_connection(addr)
+        sock = socket.create_connection(addr,timeout=timeout)
         half = len(client_hello)//2
         sock.send(client_hello[:half])
         time.sleep(1)
@@ -258,4 +257,5 @@ def tldr_dectector(host, addr = None, port = 443):
         print(e)
         BinaryEncoding += "0"
     
-    return {BinaryEncoding:host}
+    dict_return  = {BinaryEncoding:host}
+    return dict_return
