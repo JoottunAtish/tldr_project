@@ -136,7 +136,7 @@ def check_byte(data:bytes):
         return True
 
 
-def tldr_dectector(host, addr = None, port = 443, timeout = 30) -> dict:
+def tldr_dectector(host, addr = None, port = 443, timeout = 30, netname = None) -> dict:
     """
     Too Long; Did Not Read (TLDR) Detector. A script made by David Benjamin to test such bug.
 
@@ -257,5 +257,8 @@ def tldr_dectector(host, addr = None, port = 443, timeout = 30) -> dict:
         print(e)
         BinaryEncoding += "0"
     
-    dict_return  = {BinaryEncoding:host}
-    return dict_return
+    dict_return  = {
+        "ip_address": host,
+        "netname": netname,
+    }
+    return dict_return, BinaryEncoding

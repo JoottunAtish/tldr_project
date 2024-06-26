@@ -1,7 +1,7 @@
 from configurations.ip_validator import start_resume_ip_validator
 from configurations.ip_collector import start_resume_retrieve_asn_details, ip_prefix_to_list
 from configurations.tls_filterer import start_resume_tls_filterer
-
+from utils.read_results import read_ip_validator_results, read_tls_filterer_results
 from configurations.tldr_anomaly_detector import resume_tldr_process
 import json
 
@@ -14,9 +14,9 @@ list_of_country = [
     # "Benin",
     # "Burundi",
     # "Central African Republic",
-    "Mauritius",
-    "Mozambique",
-    "Niger",
+    # "Mauritius",
+    # "Mozambique",
+    # "Niger",
     "Rwanda"
 ]
 
@@ -33,18 +33,17 @@ for country, asn_details in asn_details_grouped_by_country.items():
             
         print(f"Processing {country}, {len(ip_addresses)} IP Addresses")
 
-        valid_ip_addresses = start_resume_ip_validator(ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
-        
-        tlsv1_3, tlsv1_2, tlsvOld = start_resume_tls_filterer(valid_ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
-        
-        ip_address_1_3 = [ip['ip_address'] for ip in tlsv1_3]
-        ip_address_1_2 = [ip['ip_address'] for ip in tlsv1_2]
+        # valid_ip_addresses = start_resume_ip_validator(ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
+        valid_ip_addresses = read_ip_validator_results(country)
+        # tlsv1_3, tlsv1_2, tlsvOld = start_resume_tls_filterer(valid_ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
+        tlsv1_2 = read_tls_filterer_results(country, "tls_1_2")
+        tlsv1_3 = read_tls_filterer_results(country, "tls_1_3")
 
         # # scanning for TLS1.3
-        resume_tldr_process(ip_address=ip_address_1_3, num_of_threads=2048, chunk_size=100, countryname=country, asndetails=None, version="v1.3")
+        resume_tldr_process(ip_address=tlsv1_3, num_of_threads=512, chunk_size=512, countryname=country, asndetails=asn_details, version="v1.3")
         
         # # # scanning for TLS1.2
-        resume_tldr_process(ip_address=ip_address_1_2, num_of_threads=2048, chunk_size=100, countryname=country, asndetails=None, version="v1.2")
+        resume_tldr_process(ip_address=tlsv1_2, num_of_threads=512, chunk_size=512, countryname=country, asndetails=asn_details, version="v1.2")
         
 
 

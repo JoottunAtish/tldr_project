@@ -12,7 +12,7 @@ from utils.fix_bleeding import fix_bleeding_ip_validator
 def start_resume_ip_validator(ip_addresses, num_of_threads, country_name, asn_details):
     chunk_size = num_of_threads
     """
-    Makes use of a checkpoint system to keep tracks of already processed data
+    Makes use of a checkpoint    system to keep tracks of already processed data
     in case of an issue such as a power-cut. 
 
     #### :Parameters

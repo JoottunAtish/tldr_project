@@ -1,5 +1,7 @@
 from configurations.ip_collector import ip_prefix_to_list
-from utils.checkpoint import save_ip_validator_checkpoint, save_tls_filterer_checkpoint
+from utils.checkpoint import save_ip_validator_checkpoint, save_tls_filterer_checkpoint, save_tldr_checkpoint
+from itertools import groupby
+from operator import itemgetter
 import json
 import os
 
@@ -64,9 +66,8 @@ def fix_bleeding_tls_filterer(country, asn_details):
     return tls_1_3, tls_1_2, old_tls
 
 
-def fix_bleeding_tldr_anomaly(country, asn_details):
-    checkpoint = f"checkpoints/{country}/tldr_process_results.json"
-    
+def fix_bleeding_tldr_anomaly(asn_details, checkpoint):
+    ip_addresses = []
     for asn_detail in asn_details:
         ip_prefixes = asn_detail["inetnums"]
         netname = asn_detail["netname"]
@@ -79,4 +80,13 @@ def fix_bleeding_tldr_anomaly(country, asn_details):
 
     with open(checkpoint, 'r') as f:
         data = json.load(f)
+        ip_addresses_encoding = data["ip_addresses_encoding"]
+        ip_addresses_with_key = set((key, ip["ip_address"], ip["netname"]) for key in ip_addresses_encoding for ip in ip_addresses_encoding[key])
+        ip_addresses_without_key = set((ip["ip_address"], ip["netname"]) for key in ip_addresses_encoding for ip in ip_addresses_encoding[key])
+        common_ip_addresses = ip_addresses & ip_addresses_without_key
+
+        common_ip_addresses_with_key = groupby(sorted([(key, ip, netname) for key, ip, netname in ip_addresses_with_key if (ip, netname) in common_ip_addresses], key=itemgetter(0)), key=itemgetter(0))
+        grouped_dict = {key: list(ip_addresses) for key, ip_addresses in common_ip_addresses_with_key}
+
+    save_tldr_checkpoint(grouped_dict, checkpoint)
         
