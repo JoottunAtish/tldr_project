@@ -11,13 +11,15 @@ asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
     # "Angola",
-    # "Benin",
-    # "Burundi",
-    # "Central African Republic",
-    # "Mauritius",
-    # "Mozambique",
-    # "Niger",
-    "Rwanda"
+    "Benin",
+    "Burundi",
+    "Central African Republic",
+    "Mauritius",
+    "Mozambique",
+    "Niger",
+    "Rwanda",
+    "Djibouti",
+    "Eritrea"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
@@ -33,9 +35,11 @@ for country, asn_details in asn_details_grouped_by_country.items():
             
         print(f"Processing {country}, {len(ip_addresses)} IP Addresses")
 
-        # valid_ip_addresses = start_resume_ip_validator(ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
+        start_resume_ip_validator(ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
         valid_ip_addresses = read_ip_validator_results(country)
-        # tlsv1_3, tlsv1_2, tlsvOld = start_resume_tls_filterer(valid_ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
+        
+        start_resume_tls_filterer(valid_ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
+        
         tlsv1_2 = read_tls_filterer_results(country, "tls_1_2")
         tlsv1_3 = read_tls_filterer_results(country, "tls_1_3")
 
