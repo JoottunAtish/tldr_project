@@ -11,9 +11,13 @@ asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
     # "Angola",
-    "Benin",
-    "Burundi",
-    "Central African Republic"
+    # "Benin",
+    # "Burundi",
+    # "Central African Republic",
+    "Mauritius",
+    "Mozambique",
+    "Niger",
+    "Rwanda"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
@@ -36,11 +40,11 @@ for country, asn_details in asn_details_grouped_by_country.items():
         ip_address_1_3 = [ip['ip_address'] for ip in tlsv1_3]
         ip_address_1_2 = [ip['ip_address'] for ip in tlsv1_2]
 
-        # scanning for TLS1.3
-        resume_tldr_process(ip_address=ip_address_1_3, num_of_threads=2048, chunk_size=40, countryname=country, asndetails=None, version="v1.3")
+        # # scanning for TLS1.3
+        resume_tldr_process(ip_address=ip_address_1_3, num_of_threads=2048, chunk_size=100, countryname=country, asndetails=None, version="v1.3")
         
-        # # scanning for TLS1.2
-        resume_tldr_process(ip_address=ip_address_1_2, num_of_threads=2048, chunk_size=40, countryname=country, asndetails=None, version="v1.2")
+        # # # scanning for TLS1.2
+        resume_tldr_process(ip_address=ip_address_1_2, num_of_threads=2048, chunk_size=100, countryname=country, asndetails=None, version="v1.2")
         
 
 
