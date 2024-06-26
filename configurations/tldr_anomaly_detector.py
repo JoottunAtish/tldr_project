@@ -2,9 +2,11 @@ import concurrent.futures, os, json
 from configurations.tldr_fail_test import tldr_dectector
 from utils.checkpoint import save_tldr_checkpoint
 from utils.result import save_tldr_results
+from utils.fix_bleeding import fix_bleeding_tldr_anomaly
+import threading
 
 
-def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, version,  Processed_ip_addresses = []):
+def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, version,  Processed_ip_addresses = {}, asndetails = None):
     """
     This function make use of parallel computing to speed up the process which calls 
     the tldr_detector function.
@@ -21,49 +23,74 @@ def tldr_process(ip_addresses, num_of_threads, chunk_size, countryname, version,
         Processed_ip_address : list
             By default, the list is empty.
     """
-    number_of_ip_addresses = len(ip_addresses)
+    num_processed_ip = sum(len(Processed_ip_addresses[key]) for key in Processed_ip_addresses)
+    progress = [num_processed_ip]
+    progress_lock = threading.Lock()
+    number_of_ip_addresses = len(ip_addresses) + num_processed_ip
     checkpoint = f"checkpoints/{countryname}/tldr_process_{version}_results.json"
+    processed_ip_addresses_lock = threading.Lock()
     
     for i in range(0, number_of_ip_addresses, chunk_size):
         with concurrent.futures.ThreadPoolExecutor(num_of_threads) as executor:
-            futures = {executor.submit(tldr_dectector, ip, timeout=30): ip for ip in ip_addresses[i:i+chunk_size]}
+            futures = {executor.submit(tldr_dectector, ip["ip_address"], timeout=30, netname=ip["netname"]): ip for ip in ip_addresses[i:i+chunk_size]}
             for future in concurrent.futures.as_completed(futures):                
                 try:
-                    if future.result():
-                        Processed_ip_addresses.append(future.result())
-                    else:
-                        Processed_ip_addresses.append(future.result())
+                    dict, binary_encoding = future.result()
+                    with processed_ip_addresses_lock:
+                        Processed_ip_addresses[binary_encoding].append(dict)
                 except Exception as e:
                     print(e)
-                    Processed_ip_addresses.append(future.result())
+                    dict, binary_encoding = future.result()
+                    with processed_ip_addresses_lock:
+                        Processed_ip_addresses[binary_encoding].append(dict)
+                with progress_lock:
+                    progress[0] += 1
                 
                 os.system('clear')
-                print(f"Checkpoint at Checkpoints/{countryname}/tldr_process_{version}_results.json\nTotal IP address: \t{number_of_ip_addresses}\nIP Addresses Scanned: \t{len(Processed_ip_addresses)}\n{progress_bar(len(Processed_ip_addresses), number_of_ip_addresses, 100)}")
+                print(f"Checkpoint at Checkpoints/{countryname}/tldr_process_{version}_results.json\nTotal IP address: \t{number_of_ip_addresses}\nIP Addresses Scanned: \t{progress[0]}\n{progress_bar(progress[0], number_of_ip_addresses, 100)}")
         
         # list_ip = [list(ip.values())[0] for ip in Processed_ip_addresses]
         # list_encoding = [list(binary.keys())[0] for binary in Processed_ip_addresses]
              
         save_tldr_checkpoint(Processed_ip_addresses, checkpoint)
     save_tldr_checkpoint(Processed_ip_addresses, checkpoint)
-
-    save_tldr_results(len(Processed_ip_addresses), Processed_ip_addresses, f"results/{countryname}/tldr_process_{version}_results.json")
+    fix_bleeding_tldr_anomaly(asndetails, checkpoint)
+    save_tldr_results(number_of_ip_addresses, Processed_ip_addresses, f"results/{countryname}/tldr_process_{version}_results.json")
     
 
 def resume_tldr_process(ip_address, num_of_threads, chunk_size, countryname, asndetails, version):
     checkpoint = f"checkpoints/{countryname}/tldr_process_{version}_results.json"
+    dict = {
+        "0000": [],
+        "0001": [],
+        "0010": [],
+        "0011": [],
+        "0100": [],
+        "0101": [],
+        "0110": [],
+        "0111": [],
+        "1000": [],
+        "1001": [],
+        "1010": [],
+        "1011": [],
+        "1100": [],
+        "1101": [],
+        "1110": [],
+        "1111": []
+    }
     
     if not os.path.exists(checkpoint):
-        tldr_process(ip_address, num_of_threads,version=version, chunk_size=chunk_size, countryname=countryname)
+        tldr_process(ip_address, num_of_threads,version=version, chunk_size=chunk_size, countryname=countryname, Processed_ip_addresses=dict, asndetails=asndetails)
     else:
         with open(checkpoint, "rb") as f:
             cp= json.load(f)
-            cp_ip_addresses = cp["ip_addresses_encoding"]
+            cp_ip_addresses_encoding = cp["ip_addresses_encoding"]
+            cp_ip_addresses_without_key = set((ip["ip_address"], ip["netname"]) for key in cp_ip_addresses_encoding for ip in cp_ip_addresses_encoding[key])
             
-            _remaining_ip = list(set((ip) for ip in ip_address) - (set(list(ip.values())[0] for ip in cp_ip_addresses)))
+            _remaining_ip_addresses = list(set((ip['ip_address'], ip['netname']) for ip in ip_address) - cp_ip_addresses_without_key)
+            remaining_ip_addresses = [{'ip_address': ip[0], 'netname': ip[1]} for ip in _remaining_ip_addresses]
                         
-            tldr_process(_remaining_ip, num_of_threads, chunk_size, countryname,version, cp_ip_addresses)
-            _remaining_ip = None
-
+            tldr_process(remaining_ip_addresses, num_of_threads, chunk_size, countryname,version, cp_ip_addresses_encoding, asndetails)
 
 
 def progress_bar(current, total, bar_length=100):

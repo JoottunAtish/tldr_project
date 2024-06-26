@@ -48,8 +48,9 @@ def save_tls_filterer_checkpoint(tls_1_3, tls_1_2, old_tls, output_file):
 def save_tldr_checkpoint(processed_ip, output_file):
     if not os.path.exists(os.path.dirname(output_file)):
         os.makedirs(os.path.dirname(output_file))
+    num_of_ip_addresses = sum(len(processed_ip[key]) for key in processed_ip)
     results= {
-        "num_of_ip_addresses":len(processed_ip), 
+        "num_of_ip_addresses": num_of_ip_addresses, 
         "ip_addresses_encoding": processed_ip,
     }
     
