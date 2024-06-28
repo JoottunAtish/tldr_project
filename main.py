@@ -30,6 +30,37 @@ list_of_country = [
     # "Guinea",
     # "Chad",
     # "Congo"
+    
+    "Botswana",
+    "Burkina Faso",
+    "Cameroon",
+    "Comoros",
+    "Côte d'Ivoire",
+    "Eswatini",
+    "Ethiopia",
+    
+    "Gambia",
+    "Ghana",
+    "Kenya",
+    "Lesotho",
+    "Libya",
+    "Madagascar",
+    "Malawi",
+    
+    "Mali",
+    "Namibia",
+    "Nigeria",
+    "Réunion",
+    "Seychelles",
+    "Sierra Leone",
+    "Somalia",
+    
+    "South Sudan",
+    "Sudan",
+    "Tanzania, United Republic of",
+    "Uganda",
+    "Zambia",
+    "Zimbabwe"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
