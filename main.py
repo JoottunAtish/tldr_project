@@ -20,7 +20,6 @@ list_of_country = [
     # "Rwanda",
     # "Djibouti",
     # "Eritrea",
-    # "Egypt",
     
     # "Angola",
     # "Equatorial Guinea",
@@ -31,6 +30,7 @@ list_of_country = [
     # "Chad",
     # "Congo"
     
+    # Poshan
     "Botswana",
     "Burkina Faso",
     "Cameroon",
@@ -47,6 +47,7 @@ list_of_country = [
     "Madagascar",
     "Malawi",
     
+    # Atish
     "Mali",
     "Namibia",
     "Nigeria",
@@ -55,6 +56,7 @@ list_of_country = [
     "Sierra Leone",
     "Somalia",
     
+    # Kevin
     "South Sudan",
     "Sudan",
     "Tanzania, United Republic of",
@@ -62,6 +64,9 @@ list_of_country = [
     "Zambia",
     "Zimbabwe",
     "Congo, The Democratic Republic of the"
+    
+    # DONT TOUCH THIS ONE
+    # "Egypt",
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
