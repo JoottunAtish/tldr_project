@@ -1,0 +1,969 @@
+{
+    "total_ip_checked": 236,
+    "encoded_ip_addresses": {
+        "0000": [
+            {
+                "ip_address": "102.130.69.141",
+                "netname": "ANGOLA-CABLES"
+            }
+        ],
+        "0001": [],
+        "0010": [],
+        "0011": [],
+        "0100": [],
+        "0101": [],
+        "0110": [],
+        "0111": [
+            {
+                "ip_address": "41.63.187.75",
+                "netname": "TVCaboAngola"
+            }
+        ],
+        "1000": [],
+        "1001": [],
+        "1010": [],
+        "1011": [],
+        "1100": [],
+        "1101": [],
+        "1110": [
+            {
+                "ip_address": "102.130.192.248",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.221.52.133",
+                "netname": "EEID-net"
+            },
+            {
+                "ip_address": "102.221.53.135",
+                "netname": "EEID-net"
+            }
+        ],
+        "1111": [
+            {
+                "ip_address": "154.66.105.106",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.214.38.82",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "102.216.169.233",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.214.38.31",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "102.222.16.222",
+                "netname": "ANYCONNECT"
+            },
+            {
+                "ip_address": "169.239.133.138",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.130.193.118",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.192.153",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "41.63.170.188",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "204.8.204.50",
+                "netname": "Banco-de-Investimento-Rural"
+            },
+            {
+                "ip_address": "196.249.224.66",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "102.130.71.28",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "154.66.105.34",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.214.38.43",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "154.66.105.17",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "197.149.151.194",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.193.122",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "169.239.133.236",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.130.71.27",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "197.149.150.209",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "154.66.105.30",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "197.149.149.62",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "196.249.195.30",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "102.214.38.33",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "169.239.132.108",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.130.71.210",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "196.61.76.17",
+                "netname": "CMC-Angola-v4"
+            },
+            {
+                "ip_address": "197.149.151.175",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "160.119.240.232",
+                "netname": "NETSPACE1"
+            },
+            {
+                "ip_address": "41.63.169.217",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.130.71.67",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.193.86",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "196.249.196.6",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "102.130.193.120",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.71.137",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.166.96",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.130.71.113",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.165.49",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "204.8.204.12",
+                "netname": "Banco-de-Investimento-Rural"
+            },
+            {
+                "ip_address": "169.239.133.139",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.130.194.80",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "169.239.132.174",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.214.38.85",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "102.212.216.40",
+                "netname": "EGATE-CLOUD"
+            },
+            {
+                "ip_address": "197.149.150.235",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "196.49.6.72",
+                "netname": "AO-IXPmgmnt"
+            },
+            {
+                "ip_address": "197.149.151.172",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "169.239.133.234",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.130.71.225",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "197.149.150.234",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.36.224.198",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "197.149.151.190",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.67.139",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.36.224.204",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "102.130.195.4",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "154.66.105.20",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "154.66.105.172",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "154.66.105.190",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "169.239.133.146",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "160.119.240.231",
+                "netname": "NETSPACE1"
+            },
+            {
+                "ip_address": "154.66.106.164",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.194.115",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.213.15.2",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "154.66.105.84",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.194.190",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.214.236.15",
+                "netname": "LCL3-v4"
+            },
+            {
+                "ip_address": "102.214.38.18",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "154.66.104.205",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.192.95",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "197.149.148.133",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "154.66.106.229",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "160.119.240.215",
+                "netname": "NETSPACE1"
+            },
+            {
+                "ip_address": "197.149.151.176",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.223.102.244",
+                "netname": "Benguela_Shared"
+            },
+            {
+                "ip_address": "197.149.150.226",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "169.239.77.181",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "154.66.104.222",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "197.216.1.226",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "197.149.151.126",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.71.155",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.163.49",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.214.38.133",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "154.66.105.33",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "197.216.107.24",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "102.130.68.164",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.193.123",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.212.216.10",
+                "netname": "EGATE-CLOUD"
+            },
+            {
+                "ip_address": "197.149.151.174",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.223.157.57",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "169.239.77.146",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "169.239.77.75",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "41.63.166.103",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "41.223.158.163",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "102.214.38.21",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "102.214.38.94",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "196.249.246.166",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "102.36.224.1",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "129.122.140.239",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.194.100",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "154.66.107.62",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "41.63.161.37",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "196.249.195.33",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "102.221.52.134",
+                "netname": "EEID-net"
+            },
+            {
+                "ip_address": "41.63.166.20",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "41.63.161.190",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "169.239.133.141",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.216.252.2",
+                "netname": "ELENDE"
+            },
+            {
+                "ip_address": "197.149.149.52",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.170.178",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.213.15.91",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "197.216.107.12",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "102.213.15.100",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.67.218",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.67.161",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "154.66.105.194",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.192.198",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "129.122.190.41",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "154.66.105.18",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "41.63.165.31",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "169.239.133.140",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.130.71.229",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "154.66.105.193",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "41.222.239.170",
+                "netname": "mundotel2"
+            },
+            {
+                "ip_address": "102.214.38.30",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "196.249.195.39",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "102.130.192.59",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.192.204",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.130.71.16",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "196.46.21.163",
+                "netname": "bancobic"
+            },
+            {
+                "ip_address": "197.216.107.14",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "41.63.166.109",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "154.66.106.253",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "160.119.241.213",
+                "netname": "NETSPACE1"
+            },
+            {
+                "ip_address": "41.63.165.149",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.36.224.154",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "102.130.70.237",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.163.87",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.130.194.198",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "169.239.78.252",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "154.127.132.147",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "196.32.193.254",
+                "netname": "MMTL-NET-MULTITEL-ANGOLA"
+            },
+            {
+                "ip_address": "129.122.217.23",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "41.63.165.216",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "41.63.165.208",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "197.216.107.7",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "197.216.1.211",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "169.239.132.241",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.130.67.132",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.160.167",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.216.169.2",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.212.216.50",
+                "netname": "EGATE-CLOUD"
+            },
+            {
+                "ip_address": "102.130.67.133",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.67.147",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.210.228.207",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "41.63.165.176",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "197.216.107.22",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "196.249.195.46",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "196.249.195.15",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "102.130.67.155",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "197.149.149.60",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.212.216.11",
+                "netname": "EGATE-CLOUD"
+            },
+            {
+                "ip_address": "197.149.149.17",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "197.216.1.209",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "41.63.166.104",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "102.215.171.32",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "196.32.194.164",
+                "netname": "MMTL-NET-MULTITEL-ANGOLA"
+            },
+            {
+                "ip_address": "192.12.111.39",
+                "netname": "BBDP1-v4"
+            },
+            {
+                "ip_address": "102.214.37.22",
+                "netname": "AAS1-v4"
+            },
+            {
+                "ip_address": "102.130.67.137",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "196.249.246.75",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "41.63.160.166",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "204.8.204.10",
+                "netname": "Banco-de-Investimento-Rural"
+            },
+            {
+                "ip_address": "197.149.148.135",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.222.237.166",
+                "netname": "mundotel2"
+            },
+            {
+                "ip_address": "102.217.118.42",
+                "netname": "NPDSv4"
+            },
+            {
+                "ip_address": "41.222.203.4",
+                "netname": "Infrasat"
+            },
+            {
+                "ip_address": "197.149.148.147",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "204.8.204.17",
+                "netname": "Banco-de-Investimento-Rural"
+            },
+            {
+                "ip_address": "196.43.197.25",
+                "netname": "BCGTA"
+            },
+            {
+                "ip_address": "196.61.78.233",
+                "netname": "CMC-Angola-v4"
+            },
+            {
+                "ip_address": "197.149.148.142",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.163.108",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "197.149.148.144",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.67.141",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.74.247.10",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "102.130.67.135",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.67.136",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "197.149.148.150",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "197.149.148.140",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.67.154",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "169.239.77.178",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "197.149.148.132",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.67.142",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "41.63.165.50",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "154.127.132.237",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "41.205.60.92",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "160.119.243.118",
+                "netname": "NETSPACE1"
+            },
+            {
+                "ip_address": "102.130.195.3",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "41.223.158.164",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "102.216.169.13",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "102.36.225.90",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "102.213.15.92",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "102.216.169.153",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "154.127.239.209",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "41.63.166.69",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "41.63.165.74",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "154.66.107.19",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "196.249.226.74",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "41.205.58.220",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "197.149.151.58",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "102.130.69.219",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "160.119.241.211",
+                "netname": "NETSPACE1"
+            },
+            {
+                "ip_address": "197.149.150.63",
+                "netname": "ANGOLA-CABLES"
+            },
+            {
+                "ip_address": "154.71.152.65",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "197.216.54.40",
+                "netname": "Angola-Telecom"
+            },
+            {
+                "ip_address": "102.130.193.84",
+                "netname": "ZAP-Angola"
+            },
+            {
+                "ip_address": "169.239.134.198",
+                "netname": "IP-WOLRD-NET3"
+            },
+            {
+                "ip_address": "169.239.77.50",
+                "netname": "CONNECTIS-DATA-ANGOLA"
+            },
+            {
+                "ip_address": "196.46.21.172",
+                "netname": "bancobic"
+            },
+            {
+                "ip_address": "102.213.54.14",
+                "netname": "Banco-YETU"
+            },
+            {
+                "ip_address": "41.222.250.188",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "154.127.150.217",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "154.71.230.7",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "196.249.240.90",
+                "netname": "MSTELCOM-INFRA-NETWORK"
+            },
+            {
+                "ip_address": "196.61.76.14",
+                "netname": "CMC-Angola-v4"
+            },
+            {
+                "ip_address": "154.71.242.133",
+                "netname": "TVCaboAngola"
+            },
+            {
+                "ip_address": "196.61.77.13",
+                "netname": "CMC-Angola-v4"
+            },
+            {
+                "ip_address": "196.61.79.13",
+                "netname": "CMC-Angola-v4"
+            },
+            {
+                "ip_address": "196.61.79.9",
+                "netname": "CMC-Angola-v4"
+            },
+            {
+                "ip_address": "196.61.77.14",
+                "netname": "CMC-Angola-v4"
+            },
+            {
+                "ip_address": "196.61.79.69",
+                "netname": "CMC-Angola-v4"
+            }
+        ]
+    }
+}

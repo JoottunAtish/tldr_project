@@ -1,0 +1,543 @@
+{
+    "total_ip_checked": 130,
+    "encoded_ip_addresses": {
+        "0000": [],
+        "0001": [],
+        "0010": [],
+        "0011": [],
+        "0100": [],
+        "0101": [],
+        "0110": [],
+        "0111": [],
+        "1000": [],
+        "1001": [],
+        "1010": [],
+        "1011": [],
+        "1100": [],
+        "1101": [],
+        "1110": [
+            {
+                "ip_address": "80.249.65.104",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.106.5.28",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.201.96.119",
+                "netname": "TA23-new"
+            }
+        ],
+        "1111": [
+            {
+                "ip_address": "168.253.102.107",
+                "netname": "Wataniya-Network"
+            },
+            {
+                "ip_address": "41.110.52.30",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.53.107",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.57.42",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.220.158.226",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "197.140.18.38",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "41.110.56.43",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.59.20",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.56.224",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.53.21",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.220.154.95",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "41.110.57.21",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.54.95",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.58.43",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "168.253.96.108",
+                "netname": "Wataniya-Network"
+            },
+            {
+                "ip_address": "197.140.31.13",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "41.110.57.213",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.42.207",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.58.223",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.53.99",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.56.146",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.201.128.190",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.201.129.13",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.140.18.191",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "197.140.18.104",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "41.110.42.254",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.140.141.9",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "196.41.226.10",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "41.110.59.31",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.220.157.172",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "41.220.157.81",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "41.110.56.210",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.43.204",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.57.171",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.56.227",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.60.209",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.61.19",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.59.19",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.220.154.83",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "41.110.61.209",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.62.159",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.44.142",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.140.142.21",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "41.110.54.98",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.140.21.59",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "197.140.31.16",
+                "netname": "SI2-20051031"
+            },
+            {
+                "ip_address": "41.220.154.85",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "168.253.103.126",
+                "netname": "Wataniya-Network"
+            },
+            {
+                "ip_address": "41.110.39.19",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.39.34",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.40.14",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "168.253.101.98",
+                "netname": "Wataniya-Network"
+            },
+            {
+                "ip_address": "168.253.97.109",
+                "netname": "Wataniya-Network"
+            },
+            {
+                "ip_address": "154.121.2.14",
+                "netname": "MOBILIS-3G-NETWORK"
+            },
+            {
+                "ip_address": "41.110.62.21",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.220.154.17",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "41.111.178.170",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.106.3.21",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.201.164.126",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.106.3.18",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.112.0.186",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.206.178",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.106.128.81",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.39.93",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.112.101.31",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.243.18",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.187.47",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.187.61",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.61.160",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.162.35",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.187.51",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.40.62",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.207.109",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.220.154.19",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "41.111.207.20",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.146.118",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.61.79",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.183.136",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.190.114",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.201.230.186",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "196.20.125.103",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.183.90",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "154.73.92.52",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.39.80",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.181.197",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.207.210",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.224.86",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.42.60",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.26.97",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.40.78",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.201.231.170",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.171.124",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.106.128.73",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.218.241",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "154.73.92.213",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.152.226",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.56.197",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.220.155.239",
+                "netname": "Optimum-Telecom-Algeria"
+            },
+            {
+                "ip_address": "41.111.242.119",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.112.101.29",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.191.80",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.218.203",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.153.169",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.233.166",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.203.173.117",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.173.135",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.112.101.22",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.156.225",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.201.208.190",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.218.244",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.216.53",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.1.208",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.227.51",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.61.80",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.143.149",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.40.135",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.180.144",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.30.130",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.172.1",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "197.200.180.86",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.84.143",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.28.113",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.111.227.73",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.73.17",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "105.96.19.106",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "41.110.39.84",
+                "netname": "TA23-new"
+            },
+            {
+                "ip_address": "80.249.68.162",
+                "netname": "TA23-new"
+            }
+        ]
+    }
+}
