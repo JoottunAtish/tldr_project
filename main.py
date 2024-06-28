@@ -10,8 +10,7 @@ import json
 asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
-    "Angola",
-    "Algeria",
+    # "Algeria",
     # "Benin",
     # "Burundi",
     # "Central African Republic",
@@ -21,7 +20,16 @@ list_of_country = [
     # "Rwanda",
     # "Djibouti",
     # "Eritrea",
-    # "Egypt"
+    # "Egypt",
+    
+    # "Angola",
+    # "Equatorial Guinea",
+    # "Senegal",
+    # "Liberia",
+    # "Somali",
+    # "Guinea",
+    # "Chad",
+    # "Congo"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
