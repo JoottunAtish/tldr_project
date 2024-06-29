@@ -31,6 +31,7 @@ list_of_country = [
     # "Congo"
     
     # Poshan
+    
     "Botswana",
     "Burkina Faso",
     "Cameroon",
@@ -47,16 +48,18 @@ list_of_country = [
     "Madagascar",
     "Malawi",
     
-    # Atish
-    "Mali",
-    "Namibia",
-    "Nigeria",
-    "Réunion",
-    "Seychelles",
-    "Sierra Leone",
-    "Somalia",
+    # # Atish
+    
+    # "Mali",
+    # "Namibia",
+    # "Nigeria",
+    # "Réunion",
+    # "Seychelles",
+    # "Sierra Leone",
+    # "Somalia",
     
     # Kevin
+    
     "South Sudan",
     "Sudan",
     "Tanzania, United Republic of",

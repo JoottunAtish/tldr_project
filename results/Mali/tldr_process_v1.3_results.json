@@ -1,0 +1,341 @@
+{
+    "total_ip_checked": 79,
+    "encoded_ip_addresses": {
+        "0000": [
+            {
+                "ip_address": "165.90.208.138",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "154.118.147.67",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.138.234",
+                "netname": "Orange-Mali-ISP"
+            }
+        ],
+        "0001": [],
+        "0010": [],
+        "0011": [],
+        "0100": [],
+        "0101": [],
+        "0110": [],
+        "0111": [
+            {
+                "ip_address": "197.155.150.92",
+                "netname": "Orange-Mali-ISP"
+            }
+        ],
+        "1000": [],
+        "1001": [],
+        "1010": [],
+        "1011": [],
+        "1100": [],
+        "1101": [],
+        "1110": [
+            {
+                "ip_address": "154.118.131.140",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.140.213",
+                "netname": "Orange-Mali-ISP"
+            }
+        ],
+        "1111": [
+            {
+                "ip_address": "154.118.140.210",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.146",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.158.28",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.212",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.30",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.12",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.170",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.235",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.163",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.158",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.141.138",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.142.130",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.141.131",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.45",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.147",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.91.154",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.13",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.44",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.158.74",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.223",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "41.221.176.137",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.137.188",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.213",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.148",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.149",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.62",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "165.90.212.80",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "41.221.176.136",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.145.164",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.142.26",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.178.174",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.136.5",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "41.73.126.133",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.59.166",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "102.130.232.40",
+                "netname": "Datatech-v4"
+            },
+            {
+                "ip_address": "154.118.147.206",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.146.158",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.59.194",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "154.118.138.106",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.144.10",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.150.235",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "41.221.176.142",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.155.26",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "41.221.176.125",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.145.166",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.56.219",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "154.118.138.226",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.136.243",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.140.218",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.153.34",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.133.100",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.166.122",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.48.186",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "196.200.50.36",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "41.221.177.62",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.129.154",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.59.171",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "41.73.97.18",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.57.149",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "41.73.102.34",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.56.244",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "154.118.181.50",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.131.59",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.140.224",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.154.114",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.189.26",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.149.50",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.50.74",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "154.118.140.225",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "197.155.147.66",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "154.118.166.42",
+                "netname": "Orange-Mali-ISP"
+            },
+            {
+                "ip_address": "196.200.60.214",
+                "netname": "AFRIBONE-MALI-SA"
+            },
+            {
+                "ip_address": "154.118.190.194",
+                "netname": "Orange-Mali-ISP"
+            }
+        ]
+    }
+}
