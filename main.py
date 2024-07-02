@@ -16,11 +16,17 @@ list_of_country = [
     # "Liberia",
     # "Somali",
     # "Burundi"
-    "Niger",
-    "Guinea",
-    "Central African Republic",
-    "Chad",
-    "Congo"
+    # "Niger",
+    # "Guinea",
+    # "Central African Republic",
+    # "Chad",
+    # "Congo"
+    #processed getting killed automatically "Tunisia"
+    # "Cabo Verde",
+    # "Gabon"
+    # "Sao Tome and Principe",
+    # "Togo",
+    "Indonesia"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
