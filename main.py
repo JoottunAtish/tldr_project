@@ -21,7 +21,7 @@ list_of_country = [
     # "Central African Republic",
     # "Chad",
     # "Congo"
-    #processed getting killed automatically "Tunisia"
+    #"Tunisia"
     # "Cabo Verde",
     # "Gabon"
     # "Sao Tome and Principe",
