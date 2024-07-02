@@ -10,66 +10,11 @@ import json
 asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
-    # "Algeria",
-    # "Benin",
-    # "Burundi",
-    # "Central African Republic",
-    # "Mauritius",
-    # "Mozambique",
-    # "Niger",
-    # "Rwanda",
-    # "Djibouti",
-    # "Eritrea",
-    
-    # "Angola",
-    # "Equatorial Guinea",
-    # "Senegal",
-    # "Liberia",
-    # "Somali",
-    # "Guinea",
-    # "Chad",
-    # "Congo"
-    
-    # Poshan
-    
-    "Botswana",
-    "Burkina Faso",
-    "Cameroon",
-    "Comoros",
-    "Côte d'Ivoire",
-    "Eswatini",
-    "Ethiopia",
-    
-    "Gambia",
-    "Ghana",
-    "Kenya",
-    "Lesotho",
-    "Libya",
-    "Madagascar",
-    "Malawi",
-    
-    # # Atish
-    
-    # "Mali",
-    # "Namibia",
-    # "Nigeria",
-    # "Réunion",
-    # "Seychelles",
-    # "Sierra Leone",
-    # "Somalia",
-    
-    # Kevin
-    
-    "South Sudan",
-    "Sudan",
-    "Tanzania, United Republic of",
-    "Uganda",
-    "Zambia",
-    "Zimbabwe",
-    "Congo, The Democratic Republic of the"
-    
-    # DONT TOUCH THIS ONE
-    # "Egypt",
+    #"Gabon"
+    "Cabo Verde",
+    "Sao Tome and Principe",
+    "Indonesia",
+    "Togo"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
@@ -85,7 +30,7 @@ for country, asn_details in asn_details_grouped_by_country.items():
             
         print(f"Processing {country}, {len(ip_addresses)} IP Addresses")
 
-        # start_resume_ip_validator(ip_addresses, num_of_threads=1024, country_name=country, asn_details=asn_details)
+        start_resume_ip_validator(ip_addresses, num_of_threads=512, country_name=country, asn_details=asn_details)
         valid_ip_addresses = read_ip_validator_results(country)
         
         start_resume_tls_filterer(valid_ip_addresses, num_of_threads=512, country_name=country, asn_details=asn_details)
