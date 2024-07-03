@@ -10,11 +10,71 @@ import json
 asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
+    # "Algeria",
+    # "Benin",
+    # "Burundi",
+    # "Central African Republic",
+    # "Mauritius",
+    # "Mozambique",
+    # "Niger",
+    # "Rwanda",
+    # "Djibouti",
+    # "Eritrea",
+    # "Angola",
+    # "Equatorial Guinea",
+    # "Senegal",
+    # "Liberia",
+    # "Somali",
+    # "Guinea",
+    # "Chad",
+    # "Congo"
+    
+    # Poshan
+    
+    "Botswana",
+    "Burkina Faso",
+    "Cameroon",
+    "Comoros",
+    "Côte d'Ivoire",
+    "Eswatini",
+    "Ethiopia",
+    
+    "Gambia",
+    "Ghana",
+    "Kenya",
+    "Lesotho",
+    "Libya",
+    "Madagascar",
+    "Malawi",
+    
+    # # Atish
+    
+    # "Mali",
+    # "Namibia",
+    # "Nigeria",
+    # "Réunion",
+    # "Seychelles",
+    # "Sierra Leone",
+    # "Somalia",
+    
+    # Kevin
+    
+    "South Sudan",
+    "Sudan",
+    "Tanzania, United Republic of",
+    "Uganda",
+    "Zambia",
+    "Zimbabwe",
+    "Congo, The Democratic Republic of the",
+    
     #"Gabon"
     "Cabo Verde",
     "Sao Tome and Principe",
     "Indonesia",
     "Togo"
+    
+    # DONT TOUCH THIS ONE
+    # "Egypt"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
