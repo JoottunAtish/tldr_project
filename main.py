@@ -11,10 +11,15 @@ asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
 list_of_country = [
     #"Gabon"
-    "Cabo Verde",
-    "Sao Tome and Principe",
-    "Indonesia",
-    "Togo"
+    # "Cabo Verde",
+    # "Sao Tome and Principe",
+    # "Indonesia",
+    # "Togo"
+    #"South Sudan",    
+    # "Tanzania",
+    # "Uganda",
+    #"Zambia",
+    #"Zimbabwe"
 ]
 
 for country, asn_details in asn_details_grouped_by_country.items():
