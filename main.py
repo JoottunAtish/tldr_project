@@ -9,12 +9,7 @@ import json
 
 asn_details_grouped_by_country = start_resume_retrieve_asn_details()
 
-list_of_country = [
-    #"Gabon"
-    # "Cabo Verde",
-    # "Sao Tome and Principe",
-    # "Indonesia",
-    # "Togo"
+list_of_country = [   
     #"South Sudan",    
     # "Tanzania",
     # "Uganda",
