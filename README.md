@@ -12,6 +12,7 @@ This project checks if the the websites in Mauritius uses the latest version of 
 - [Atish Joottun](atish.joottun@cyberstorm.mu)
 - [Poshan Peeroo](Poshan.peeroo@umail.uom.ac.mu)
 - [Kevin Yerkiah](kevin.yerkiah@umail.uom.ac.mu)
+- [Ritesh Gomind](ritesh.gomind@umail.uom.ac.mu) (Partial code-written)
 
 
 ## About TLDR Fail
@@ -36,3 +37,4 @@ This project checks if the the websites in Mauritius uses the latest version of 
 ## Dependencies
 
 *Informations will be added later on*
+
