@@ -8,6 +8,9 @@ This project was made possible due to the help of [Cyberstorm.mu](https://cybers
 Our projects analyses the readyness of Mauritius' against Quantum Computing. As many of you may know, Quantum Computing will be a game changer in the world of IT. 
 This project checks if the the websites in Mauritius uses the latest version of TLS and if the TLS was correctly implemented using David Benjamin's code ([source of the tldr_fail_test.py](https://gist.github.com/dadrian/f51e7f96aa659937775232cc3576e5f8#file-tldr_fail_test-py)).
 
+## Research paper
+[Framework for testing Open Quantum Safe for TLS Servers](https://doi.org/10.31730/osf.io/kbn3d)
+
 ## Contributors
 - [Atish Joottun](atish.joottun@cyberstorm.mu)
 - [Poshan Peeroo](Poshan.peeroo@umail.uom.ac.mu)
@@ -37,4 +40,5 @@ This project checks if the the websites in Mauritius uses the latest version of 
 ## Dependencies
 
 *Informations will be added later on*
+
 
